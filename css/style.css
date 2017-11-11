@@ -173,17 +173,18 @@ a:active {
 }
 
 .section_item--data + .section_item--data {
-  margin-top: 2rem;
+  margin-top: 2.5rem;
 }
 
 .section_item--heading {
   font: 700 17pt/1.1em 'Yanone Kaffeesatz', sans-serif;
   margin: 0;
   white-space: nowrap;
-  writing-mode: vertical-rl;
-  text-orientation: mixed;
+  writing-mode: vertical-lr;
+  writing-mode: tb-lr;
+  -ms-writing-mode: tb-lr;
   position: absolute;
-  left: -9rem;
+  left: -7rem;
   top: 1rem;
   text-align: center;
   background: #fff url(../img/bg02.png) 0 0 repeat;
@@ -193,8 +194,10 @@ a:active {
 }
 
 .section_item--heading-text {
-  display: inline-block;
-  transform: rotate(180deg);
+  display: block;
+  transform: rotate(-180deg);
+  transform-origin: center center;
+  -ms-transform: rotate(0deg);
 }
 
 .section_item--group {
@@ -266,4 +269,12 @@ small.section_item--muted-text {
   color: #fff;
   background-color: #5d6e82;
   border: 0;
+}
+
+/* dirty hacks and media queries */
+
+@supports (-ms-ime-align:auto) {
+  .section_item--heading-text {
+    transform: rotate(0deg);
+  }
 }
