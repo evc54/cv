@@ -42,6 +42,27 @@ a:active {
   border-bottom-color: transparent;
 }
 
+.shuffling {}
+
+.language-selector {}
+
+.language-selector_items {
+  display: table;
+  list-style: none;
+  margin: 0 auto 1.5rem;
+  padding: 0;
+  width: 7rem;
+}
+
+.language-selector_item {
+  display: table-cell;
+  width: 1%;
+}
+
+.language-selector_item + .language-selector_item {
+  padding-left: 0.5rem;
+}
+
 .content-wrapper {
   min-height: 100%;
   position: relative;
@@ -63,8 +84,13 @@ a:active {
   overflow: auto;
 }
 
+.sidebar .shuffling {
+  white-space: nowrap;
+  overflow: hidden;
+}
+
 .sidebar_inner {
-  padding: 2.5rem 2rem;
+  padding: 1.5rem 2rem 2.5rem;
 }
 
 .sidebar_photo {
@@ -108,6 +134,7 @@ a:active {
   margin-bottom: 0.75rem;
 }
 
+.language-selector_item--link,
 .sidebar_nav-item--link {
   font: 700 16pt/1.1em 'Yanone Kaffeesatz', sans-serif;
   display: block;
@@ -118,6 +145,16 @@ a:active {
   transition: all linear 0.2s;
 }
 
+.language-selector_item--link {
+  text-align: center;
+  font-size: 12pt;
+  padding: 0.6rem 0 0.4rem;
+}
+
+.language-selector_item--link:hover,
+.language-selector_item--link:focus,
+.language-selector_item--link:active,
+.language-selector_item--link.active,
 .sidebar_nav-item--link:hover,
 .sidebar_nav-item--link:focus,
 .sidebar_nav-item--link:active,
@@ -126,6 +163,9 @@ a:active {
               inset 0 0 0.25em 0 rgba(0, 0, 0, 0.25);
 }
 
+.language-selector_item--link:hover,
+.language-selector_item--link:focus,
+.language-selector_item--link:active,
 .sidebar_nav-item--link:hover,
 .sidebar_nav-item--link:focus,
 .sidebar_nav-item--link:active {
@@ -133,6 +173,7 @@ a:active {
   background-color: rgba(0,0,0,0.15);
 }
 
+.language-selector_item--link.active,
 .sidebar_nav-item--link.active {
   cursor: default;
   color: #fff;
@@ -145,7 +186,7 @@ a:active {
 
 .section_inner {
   box-sizing: border-box;
-  padding: 1.5rem 3rem;
+  padding: 1.5rem 6rem 1.5rem 3rem;
 }
 
 .section_items {
@@ -228,6 +269,14 @@ a:active {
   padding: 1rem 0;
   font-size: 1.1rem;
   line-height: 2.5rem;
+}
+
+.section_item--text p:first-child {
+  margin-top: 0;
+}
+
+.section_item--text p:last-child {
+  margin-bottom: 0;
 }
 
 .section_item--link {
