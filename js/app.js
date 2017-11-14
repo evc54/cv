@@ -801,10 +801,10 @@
           selectedSlide.classList.add('active');
         });
       },
-      findActiveLink = function () {
-        for (var index = 0; index < navLinks.length; index++) {
-          if (navLinks[index].classList.contains('active')) {
-            return navLinks[index];
+      findActiveLink = function (links) {
+        for (var index = 0; index < links.length; index++) {
+          if (links[index].classList.contains('active')) {
+            return links[index];
           }
         } 
       },
@@ -817,37 +817,46 @@
       },
       onNavLinkClick = function (e) {
         e && e.preventDefault();
-        var activeLink = findActiveLink();
-        if (this.classList.contains('active')) return;
+        if (e && this.classList.contains('active')) return;
+        var activeLink = findActiveLink(navLinks);
         activeLink.classList.remove('active');
         this.classList.add('active');
         toggleSlides(activeLink.hash.split('#')[1], this.hash.split('#')[1]);
       },
       onLangLinkClick = function (e) {
         e && e.preventDefault();
-        if (e && this.classList.contains('active')) return;
-        for (var index = 0; index < langLinks.length; index++) {
-          langLinks[index].classList.remove('active');
-        }
+        if ((e && this.classList.contains('active')) || (typeof this.dataset.lang == 'undefined')) return;
+        var activeLink = findActiveLink(langLinks),
+          lang = this.dataset.lang,
+          elements = document.getElementsByTagName('*');
+        activeLink.classList.remove('active');
         this.classList.add('active');
-        var lang = this.dataset.lang;
-        if (!lang) return;
-        var elements = document.getElementsByTagName('*');
-        for (var index = 0, length = elements.length; index < length; index++) {
-          var shuffle = function (el) {
+        var isElementVisible = function (el) {
+          var parent = el.parentNode;
+          if (parent.classList.contains('active') || parent.classList.contains('sidebar')) return true;
+          if (parent.tagName.toUpperCase() == 'BODY') return false;
+          return isElementVisible(parent);
+        };
+        var replaceText = function (el) {
+          var text = typeof l10n[el.dataset.textSource] != 'undefined' ? l10n[el.dataset.textSource][lang] : '';
+          if (!text) return;
+          if (isElementVisible(el)) {
             el.classList.add('shuffling');
-            var text = typeof l10n[el.dataset.textSource] != 'undefined' ? l10n[el.dataset.textSource][lang] : '';
             var shuffle = new ShuffleText(elements[index]);
-            if (text) {
-              shuffle.setText(text);
-              shuffle.start();
-              setTimeout(function () {
-                el.classList.remove('shuffling');
-              }, 610);
-            }
-          };
+            shuffle.setText(text);
+            shuffle.start();
+            setTimeout(function () {
+              el.classList.remove('shuffling');
+            }, 610);
+          }
+          else {
+            el.innerHTML = text;
+          }
+        };
+
+        for (var index = 0, length = elements.length; index < length; index++) {
           if (typeof elements[index].dataset.textSource != 'undefined') {
-            shuffle(elements[index])
+            replaceText(elements[index]);
           }
         }
       };
