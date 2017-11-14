@@ -13,6 +13,7 @@ html {
 
 body {
   min-width: 800px;
+  overflow-x: hidden;
   background: #e8e8e8 url(../img/bg02.png) 0 0 repeat;
 }
 
@@ -320,7 +321,281 @@ small.section_item--muted-text {
   border: 0;
 }
 
-/* dirty hacks and media queries */
+.print-link {
+  display: block;
+  margin: 0 auto;
+  width: 2rem;
+  height: 2rem;
+  border: 0;
+  text-decoration: none;
+  opacity: 0.8;
+  transition: opacity linear 0.1s;
+  background: transparent url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTEuMiIgaGVpZ2h0PSI1MS4yIiB2ZXJzaW9uPSIxLjAiIHZpZXdCb3g9IjAgMCA0OCA0OCIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48Zz48cGF0aCB0cmFuc2Zvcm09InNjYWxlKC45Mzc1KSIgZD0ibTEyLjgwMSA0LjI2NzZjLTMuMiAwLTQuMjY3NiAyLjEzMjMtNC4yNjc2IDQuMjY1NnYxNy4wNjZoLTMuMTk5MmMtMC40MjY2NyAwLTEuMDY2NCAwLjYzOTc0LTEuMDY2NCAxLjA2NjR2MTQuOTM0YzAgMC40MjY2NyAwLjYzOTc0IDEuMDY2NCAxLjA2NjQgMS4wNjY0aDIuMTMyOHYyLjEzNDhjMCAwLjQyNjY3IDAuNjM5NzQgMS4wNjY0IDEuMDY2NCAxLjA2NjRoMzQuMTMzYzAuNDI2NjctMmUtNiAxLjA2NjQtMC42Mzk3NCAxLjA2NjQtMS4wNjY0di0yLjEzNDhoMi4xMzQ4YzAuNDI2NjcgMCAxLjA2NjQtMC42Mzk3NCAxLjA2NjQtMS4wNjY0di0xNC45MzRjMC0wLjQyNjY3LTAuNjM5NzQtMS4wNjY0LTEuMDY2NC0xLjA2NjRoLTMuMjAxMnYtMTcuMDY2YzAtMi4xMzMzLTEuMDY1Ni00LjI2NTYtNC4yNjU2LTQuMjY1NmgtMjUuNnptMS4wNjY0IDQuMjY1NmgyMy40NjdjMS4wNjY3IDAgMS4wNjY0IDEuMDY2NCAxLjA2NjQgMS4wNjY0djE5LjIwMWgtMjUuNnYtMTkuMjAxcy0yLjZlLTQgLTEuMDY2NCAxLjA2NjQtMS4wNjY0eiIgZmlsbD0iI2ZmZiIvPjxwYXRoIGQ9Im0xNi42IDIxaDE0LjQiIGZpbGw9IiNmZmYiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSI0Ii8+PHBhdGggZD0ibTE2LjUzOSAxNGgxNC40NjEiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSI0Ii8+PC9nPjwvc3ZnPg0K') center center no-repeat;
+  background-size: auto 100%;
+}
+
+.print-link:hover,
+.print-link:focus,
+.print-link:active {
+  opacity: 1;
+}
+
+.preload-fonts {
+  position: absolute;
+  top: -1000px;
+  left: -1000px;
+  opacity: 0;
+}
+
+.preload-fonts.open-sans {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.preload-fonts.open-sans-cond {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+/* printable version stylesheet */
+
+.printable {
+  color: #555;
+  display: none;
+}
+
+.printable_heading {
+  margin: 0 0 3rem;
+}
+
+.printable_heading--about {
+  float: left;
+  width: 50%;
+}
+
+.printable_heading--work {
+  float: left;
+  width: 40%;
+  margin-left: 10%;
+}
+
+.printable_heading--name {
+  font-size: 20mm;
+  line-height: 20mm;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0 10rem 1rem 0;
+}
+
+.printable_heading--name:first-line {
+  color: #5d6e82;
+  font-size: 17mm;
+}
+
+.printable_heading--title {
+  font-size: 10.5mm;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+
+.printable_heading--contact-items {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.printable_heading--contact-item {
+  color: #5d6e82;
+  font-family: 'Open Sans', sans-serif;
+  display: inline;
+  font-weight: 700;
+  font-size: 4mm;
+  line-height: 5mm;
+  letter-spacing: 0.5mm;
+}
+
+.printable_heading--contact-item + .printable_heading--contact-item:before {
+  content: " \25cf ";
+  font-size: 3mm;
+  line-height: 3mm;
+  position: relative;
+  top: -0.4mm;
+  color: #ccc;
+}
+
+.printable_heading--work {
+  margin-top: 1rem;
+}
+
+.printable_heading--work-heading {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 4mm;
+  line-height: 4mm;
+  font-weight: 700;
+  color: #5d6e82;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+}
+
+.printable_heading--work-items {
+  list-style: none;
+  margin: 1.5rem 0;
+  padding: 0;
+}
+
+.printable_heading--work-item {
+  display: block;
+  margin: 1rem 0;
+}
+
+.printable_heading--work-title {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 3.75mm;
+  line-height: 4.5mm;
+  width: 30mm;
+  float: left;
+}
+
+.printable_heading--work-description {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 3.5mm;
+  line-height: 4.5mm;
+  display: block;
+  margin-left: 35mm;
+}
+
+.printable_heading--work-more {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 3mm;
+  line-height: 5mm;
+}
+
+.printable_body--about {
+  width: 55%;
+  margin-right: 10%;
+  float: left;
+  text-align: right;
+}
+
+.printable_body--heading {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 4mm;
+  line-height: 4mm;
+  font-weight: 700;
+  color: #5d6e82;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  margin: 2rem 0 1.5rem;
+}
+
+.printable_body--text {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 4mm;
+  line-height: 6mm;
+}
+
+.printable_body--about .printable_body--text {
+  margin-left: 10%;
+}
+
+.printable_body--text p {
+  margin: 0.5rem 0;
+}
+
+.printable_body--text strong {
+  display: block;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 4mm;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 1rem 0 0.5rem;
+}
+
+.printable_body--skills {
+  width: 35%;
+  float: left;
+}
+
+.printable_body--skills .printable_body--text {
+  margin-bottom: 0.85rem;
+}
+
+.printable_body--skill-name {
+  display: block;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 4mm;
+  font-weight: 700;
+  text-transform: uppercase;
+  float: left;
+  width: 50%;
+}
+
+.printable_body--skill-rate {
+  display: block;
+  list-style: none;
+  margin: 0 0 0 50%;
+  padding: 0;
+}
+
+.printable-body--skill-dot {
+  display: inline-block;
+  color: #5d6e82;
+  width: 10%;
+  height: 4mm;
+  font-size: 4mm;
+  line-height: 4mm;
+  position: relative;
+  text-align: right;
+}
+
+.printable-body--skill-dot.empty {
+  color: transparent;
+}
+
+.printable-body--skill-dot:after {
+  content: " \25cf ";
+}
+
+.printable_heading:after,
+.printable_heading--work-item:after,
+.printable_body:after,
+.printable_body--text:after {
+  content: "";
+  display: table;
+  clear: both;
+  float: none;
+}
+
+@media print {
+  html,
+  body {
+    height: auto;
+    min-height: none;
+  }
+
+  body {
+    background-color: white;
+    font-size: 3mm;
+    line-height: 1;
+    margin: 5mm;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 300;
+    height: auto;
+    min-height: none;
+  }
+
+  .printable {
+    display: block;
+  }
+
+  .sidebar,
+  .content-wrapper {
+    display: none;
+  }
+
+}
+
+/* css hacks */
 
 @supports (-ms-ime-align:auto) {
   .section_item--heading-text {

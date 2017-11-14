@@ -17,8 +17,8 @@
   <meta name="keywords" content="">
   <meta name="copyright" content="2017 Eugene V Chernyshev <evc22rus@gmail.com>">
   <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/style.css?2017111301">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather:400,400i|Yanone+Kaffeesatz:700&amp;subset=cyrillic">
+  <link rel="stylesheet" href="css/style.css?2017111401">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather:400,400i|Yanone+Kaffeesatz:700|Open+Sans:400,700|Open+Sans+Condensed:300,700&amp;subset=cyrillic">
 </head>
 <body>
   <div class="sidebar">
@@ -44,16 +44,17 @@
             <a href="#personal" class="sidebar_nav-item--link active" data-text-source="nav.personal"></a>
           </li>
           <li class="sidebar_nav-item">
-            <a href="#skills" class="sidebar_nav-item--link" data-text-source="nav.skills">Skills</a>
+            <a href="#skills" class="sidebar_nav-item--link" data-text-source="nav.skills"></a>
           </li>
           <li class="sidebar_nav-item">
-            <a href="#work" class="sidebar_nav-item--link" data-text-source="nav.work">Work</a>
+            <a href="#work" class="sidebar_nav-item--link" data-text-source="nav.work"></a>
           </li>
           <li class="sidebar_nav-item">
             <a href="#contact" class="sidebar_nav-item--link" data-text-source="nav.contact"></a>
           </li>
         </ul>
       </nav>
+      <a class="print-link" id="print-doc" href="#"></a>
     </div>
   </div>
   <div class="content-wrapper" id="content">
@@ -111,11 +112,11 @@
                 <span class="section_item--heading-text" data-text-source="title.education"></span>
               </div>
               <div class="section_item--group">
-                <div class="section_item--label">1996 – 2002</div>
+                <div class="section_item--label" data-text-source="value.education.1.period"></div>
                 <div class="section_item--value">
-                  <span class="section_item--big-text" data-text-source="value.education.1"></span>
+                  <span class="section_item--big-text" data-text-source="value.education.1.speciality"></span>
                   <br>
-                  <span data-text-source="value.education.2"></span>
+                  <span data-text-source="value.education.2.university"></span>
                 </div>
               </div>
             </div>
@@ -196,7 +197,7 @@
                 </div>
               </div>
               <div class="section_item--group">
-                <div class="section_item--label" data-text-source="title.skills.sql">SQL</div>
+                <div class="section_item--label" data-text-source="title.skills.sql"></div>
                 <div class="section_item--value">
                   <span class="section_item--big-text" data-text-source="value.skills.sql.desc"></span><br />
                   <small class="section_item--muted-text" data-text-source="value.skills.sql.list"></small>
@@ -234,57 +235,90 @@
               <div class="section_item--group">
                 <div class="section_item--label"><span data-text-source="month.sep"></span></div>
                 <div class="section_item--value">
-                  <a href="http://mmrd.ru/" class="section_item--big-text section_item--link -popup">mmrd.ru</a><br>
+                  <a href="http://mmrd.ru/" class="section_item--big-text section_item--link -popup">
+                    <span data-text-source="project.mmrd.title"></span>
+                  </a>
+                  <br>
                   <span data-text-source="project.mmrd.desc"></span>
                   <small class="section_item--muted-text" data-text-source="project.mmrd.type"></small>
                 </div>
               </div>
               <div class="section_item--group">
-                <div class="section_item--label"><span data-text-source="month.aug"></span> – <span data-text-source="month.sep"></span></div>
+                <div class="section_item--label">
+                  <span data-text-source="month.aug"></span> – <span data-text-source="month.sep"></span>
+                </div>
                 <div class="section_item--value">
-                  <a href="http://molodezhka.onf.ru/" class="section_item--big-text section_item--link -popup">molodezhka.onf.ru</a><br>
+                  <a href="http://molodezhka.onf.ru/" class="section_item--big-text section_item--link -popup">
+                    <span data-text-source="project.molod.title"></span>
+                  </a>
+                  <br>
                   <span data-text-source="project.molod.desc"></span>
                   <small class="section_item--muted-text" data-text-source="project.molod.type"></small>
                 </div>
               </div>
               <div class="section_item--group">
-                <div class="section_item--label"><span data-text-source="month.jun"></span> – <span data-text-source="month.jul"></span></div>
+                <div class="section_item--label">
+                  <span data-text-source="month.jun"></span> – <span data-text-source="month.jul"></span>
+                </div>
                 <div class="section_item--value">
-                  <a href="http://xn--80aa2azak.xn--p1aadc.xn--p1ai/" class="section_item--big-text section_item--link -popup">karta.rtrs.rf</a><br>
+                  <a href="http://xn--80aa2azak.xn--p1aadc.xn--p1ai/" class="section_item--big-text section_item--link -popup">
+                    <span data-text-source="project.karta-upd.title"></span>
+                  </a><br>
                   <span data-text-source="project.karta-upd.desc"></span>
                   <small class="section_item--muted-text" data-text-source="project.karta-upd.type"></small>
                 </div>
               </div>
               <div class="section_item--group">
-                <div class="section_item--label"><span data-text-source="month.may"></span> – <span data-text-source="month.jun"></span></div>
+                <div class="section_item--label">
+                  <span data-text-source="month.may"></span> – <span data-text-source="month.jun"></span>
+                </div>
                 <div class="section_item--value">
-                  <a href="http://huahong.retro.vira-tech.ru/" class="section_item--big-text section_item--link -popup">huahongrussia.ru</a>
-                  <a href="http://huahong.retro.vira-tech.ru/admin/" class="section_item--small-link -popup"><span data-text-source="common.admin-panel"></span></a>
+                  <a href="http://huahong.retro.vira-tech.ru/" class="section_item--big-text section_item--link -popup">
+                    <span data-text-source="project.huahong.title"></span>
+                  </a>
+                  <a href="http://huahong.retro.vira-tech.ru/admin/" class="section_item--small-link -popup">
+                    <span data-text-source="common.admin-panel"></span>
+                  </a>
                   <br>
                   <span data-text-source="project.huahong.desc"></span>
                   <small class="section_item--muted-text" data-text-source="project.huahong.type"></small>
                 </div>
               </div>
               <div class="section_item--group">
-                <div class="section_item--label"><span data-text-source="month.mar"></span> – <span data-text-source="month.apr"></span></div>
+                <div class="section_item--label">
+                  <span data-text-source="month.mar"></span> – <span data-text-source="month.apr"></span>
+                </div>
                 <div class="section_item--value">
-                  <a href="http://www.otdyhnakubani.ru/" class="section_item--big-text section_item--link -popup">otdyhnakubani.ru</a><br>
+                  <a href="http://www.otdyhnakubani.ru/" class="section_item--big-text section_item--link -popup">
+                    <span data-text-source="project.rtp.title"></span>
+                  </a>
+                  <br>
                   <span data-text-source="project.rtp.desc"></span>
                   <small class="section_item--muted-text" data-text-source="project.rtp.type"></small>
                 </div>
               </div>
               <div class="section_item--group">
-                <div class="section_item--label"><span data-text-source="month.feb"></span></div>
+                <div class="section_item--label">
+                  <span data-text-source="month.feb"></span>
+                </div>
                 <div class="section_item--value">
-                  <a href="http://fondinternet.ru/" class="section_item--big-text section_item--link -popup">fondinternet.ru</a><br>
+                  <a href="http://fondinternet.ru/" class="section_item--big-text section_item--link -popup">
+                    <span data-text-source="project.fond.title"></span>
+                  </a>
+                  <br>
                   <span data-text-source="project.fond.desc"></span>
                   <small class="section_item--muted-text" data-text-source="project.fond.type"></small>
                 </div>
               </div>
               <div class="section_item--group">
-                <div class="section_item--label"><span data-text-source="month.jan"></span> – <span data-text-source="month.feb"></span></div>
+                <div class="section_item--label">
+                  <span data-text-source="month.jan"></span> – <span data-text-source="month.feb"></span>
+                </div>
                 <div class="section_item--value">
-                  <a href="http://ecrog.ru/" class="section_item--big-text section_item--link -popup">ecrog.ru</a><br>
+                  <a href="http://ecrog.ru/" class="section_item--big-text section_item--link -popup">
+                    <span data-text-source="project.ecrog.title"></span>
+                  </a>
+                  <br>
                   <span data-text-source="project.ecrog.desc"></span>
                   <small class="section_item--muted-text" data-text-source="project.ecrog.type"></small>
                 </div>
@@ -295,41 +329,66 @@
                 <span class="section_item--heading-text">2016</span>
               </div>
               <div class="section_item--group">
-                <div class="section_item--label"><span data-text-source="month.nov"></span> – <span data-text-source="month.dec"></span></div>
+                <div class="section_item--label">
+                  <span data-text-source="month.nov"></span> – <span data-text-source="month.dec"></span>
+                </div>
                 <div class="section_item--value">
-                  <a href="http://www.viracms.ru/revision/personal-nyj-sajt/" class="section_item--big-text section_item--link -popup">ViraCMS PWS</a><br>
+                  <a href="http://www.viracms.ru/revision/personal-nyj-sajt/" class="section_item--big-text section_item--link -popup">
+                    <span data-text-source="project.pws.title"></span>
+                  </a>
+                  <br>
                   <span data-text-source="project.pws.desc"></span>
                   <small class="section_item--muted-text" data-text-source="project.pws.type"></small>
                 </div>
               </div>
               <div class="section_item--group">
-                <div class="section_item--label"><span data-text-source="month.oct"></span> – <span data-text-source="month.dec"></span></div>
+                <div class="section_item--label">
+                  <span data-text-source="month.oct"></span> – <span data-text-source="month.dec"></span>
+                </div>
                 <div class="section_item--value">
-                  <a href="http://viraworks.retro.vira-tech.ru/" class="section_item--big-text section_item--link -popup">ViraWorks</a><br>
+                  <a href="http://viraworks.retro.vira-tech.ru/" class="section_item--big-text section_item--link -popup">
+                    <span data-text-source="project.vworks.title"></span>
+                  </a>
+                  <br>
                   <span data-text-source="project.vworks.desc"></span>
                   <small class="section_item--muted-text" data-text-source="project.vworks.type"></small>
                 </div>
               </div>
               <div class="section_item--group">
-                <div class="section_item--label"><span data-text-source="month.oct"></span></div>
+                <div class="section_item--label">
+                  <span data-text-source="month.oct"></span>
+                </div>
                 <div class="section_item--value">
-                  <a href="http://www.viracms.ru/revision/sajt-avtomobil-noj-servisnoj-organizacii/" class="section_item--big-text section_item--link -popup">ViraCMS CRS</a><br>
+                  <a href="http://www.viracms.ru/revision/sajt-avtomobil-noj-servisnoj-organizacii/" class="section_item--big-text section_item--link -popup">
+                    <span data-text-source="project.crs.title"></span>
+                  </a>
+                  <br>
                   <span data-text-source="project.crs.desc"></span>
                   <small class="section_item--muted-text" data-text-source="project.crs.type"></small>
                 </div>
               </div>
               <div class="section_item--group">
-                <div class="section_item--label"><span data-text-source="month.jul"></span> – <span data-text-source="month.sep"></span></div>
+                <div class="section_item--label">
+                  <span data-text-source="month.jul"></span> – <span data-text-source="month.sep"></span>
+                </div>
                 <div class="section_item--value">
-                  <a href="http://www.viracms.ru/revision/sajt-municipal-nogo-organa-vlasti/" class="section_item--big-text section_item--link -popup">ViraCMS GSP</a><br>
+                  <a href="http://www.viracms.ru/revision/sajt-municipal-nogo-organa-vlasti/" class="section_item--big-text section_item--link -popup">
+                    <span data-text-source="project.gsp.title"></span>
+                  </a>
+                  <br>
                   <span data-text-source="project.gsp.desc"></span>
                   <small class="section_item--muted-text" data-text-source="project.gsp.type"></small>
                 </div>
               </div>
               <div class="section_item--group">
-                <div class="section_item--label"><span data-text-source="month.jan"></span> – <span data-text-source="month.jul"></span></div>
+                <div class="section_item--label">
+                  <span data-text-source="month.jan"></span> – <span data-text-source="month.jul"></span>
+                </div>
                 <div class="section_item--value">
-                  <a href="http://www.viracms.ru/" class="section_item--big-text section_item--link -popup">viracms.ru</a><br>
+                  <a href="http://www.viracms.ru/" class="section_item--big-text section_item--link -popup">
+                    <span data-text-source="project.vira.title"></span>
+                  </a>
+                  <br>
                   <span data-text-source="project.vira.desc"></span>
                   <small class="section_item--muted-text" data-text-source="project.vira.type"></small>
                 </div>
@@ -340,59 +399,95 @@
                 <span class="section_item--heading-text">2015</span>
               </div>
               <div class="section_item--group">
-                <div class="section_item--label"><span data-text-source="month.dec"></span></div>
+                <div class="section_item--label">
+                  <span data-text-source="month.dec"></span>
+                </div>
                 <div class="section_item--value">
-                  <a href="http://sogrf.ru/" class="section_item--big-text section_item--link -popup">sogrf.ru</a><br>
+                  <a href="http://sogrf.ru/" class="section_item--big-text section_item--link -popup">
+                    <span data-text-source="project.sog.title"></span>
+                  </a>
+                  <br>
                   <span data-text-source="project.sog.decs"></span>
                   <small class="section_item--muted-text" data-text-source="project.sog.type"></small>
                 </div>
               </div>
               <div class="section_item--group">
-                <div class="section_item--label"><span data-text-source="month.nov"></span> – <span data-text-source="month.dec"></span> +</div>
+                <div class="section_item--label">
+                  <span data-text-source="month.nov"></span> – <span data-text-source="month.dec"></span>
+                </div>
                 <div class="section_item--value">
-                  <a href="http://www.viracms.ru/" class="section_item--big-text section_item--link -popup">viracms.ru</a><br>
+                  <a href="http://www.viracms.ru/" class="section_item--big-text section_item--link -popup">
+                    <span data-text-source="project.vira.title"></span>
+                  </a>
+                  <br>
                   <span data-text-source="project.vira.desc"></span>
                   <small class="section_item--muted-text" data-text-source="project.vira.type"></small>
                 </div>
               </div>
               <div class="section_item--group">
-                <div class="section_item--label"><span data-text-source="month.oct"></span></div>
+                <div class="section_item--label">
+                  <span data-text-source="month.oct"></span>
+                </div>
                 <div class="section_item--value">
-                  <a href="http://yihe.retro.vira-tech.ru/" class="section_item--big-text section_item--link -popup">yihe.ru</a><br>
+                  <a href="http://yihe.retro.vira-tech.ru/" class="section_item--big-text section_item--link -popup">
+                    <span data-text-source="project.yihe.title"></span>
+                  </a>
+                  <br>
                   <span data-text-source="project.yihe.desc"></span>
                   <small class="section_item--muted-text" data-text-source="project.yihe.type"></small>
                 </div>
               </div>
               <div class="section_item--group">
-                <div class="section_item--label"><span data-text-source="month.jun"></span> – <span data-text-source="month.oct"></span></div>
+                <div class="section_item--label">
+                  <span data-text-source="month.jun"></span> – <span data-text-source="month.oct"></span>
+                </div>
                 <div class="section_item--value">
-                  <a href="http://pravoeslovo.ru/" class="section_item--big-text section_item--link -popup">pravoeslovo.ru</a><br>
+                  <a href="http://pravoeslovo.ru/" class="section_item--big-text section_item--link -popup">
+                    <span data-text-source="project.slovo.title"></span>
+                  </a>
+                  <br>
                   <span data-text-source="project.slovo.desc"></span>
                   <small class="section_item--muted-text" data-text-source="project.slovo.type"></small>
                 </div>
               </div>
               <div class="section_item--group">
-                <div class="section_item--label"><span data-text-source="month.may"></span></div>
+                <div class="section_item--label">
+                  <span data-text-source="month.may"></span>
+                </div>
                 <div class="section_item--value">
-                  <a href="http://rtrsrf.retro.vira-tech.ru/" class="section_item--big-text section_item--link -popup">rtrs.rf</a><br>
+                  <a href="http://rtrsrf.retro.vira-tech.ru/" class="section_item--big-text section_item--link -popup">
+                    <span data-text-source="project.rtrsrf.title"></span>
+                  </a>
+                  <br>
                   <span data-text-source="project.rtrsrf.desc"></span>
                   <small class="section_item--muted-text" data-text-source="project.rtrsrf.type"></small>
                 </div>
               </div>
               <div class="section_item--group">
-                <div class="section_item--label"><span data-text-source="month.mar"></span> – <span data-text-source="month.apr"></span></div>
+                <div class="section_item--label">
+                  <span data-text-source="month.mar"></span> – <span data-text-source="month.apr"></span>
+                </div>
                 <div class="section_item--value">
-                  <a href="http://naccenter.retro.vira-tech.ru/" class="section_item--big-text section_item--link -popup">naccenter.ru</a>
-                  <a href="http://naccenter.retro.vira-tech.ru/admin/" class="section_item--small-link -popup"><span data-text-source="common.admin-panel"></span></a>
+                  <a href="http://naccenter.retro.vira-tech.ru/" class="section_item--big-text section_item--link -popup">
+                    <span data-text-source="project.nac.title"></span>
+                  </a>
+                  <a href="http://naccenter.retro.vira-tech.ru/admin/" class="section_item--small-link -popup">
+                    <span data-text-source="common.admin-panel"></span>
+                  </a>
                   <br>
                   <span data-text-source="project.nac.desc"></span>
                   <small class="section_item--muted-text" data-text-source="project.nac.type"></small>
                 </div>
               </div>
               <div class="section_item--group">
-                <div class="section_item--label"><span data-text-source="month.jan"></span> – <span data-text-source="month.feb"></span></div>
+                <div class="section_item--label">
+                  <span data-text-source="month.jan"></span> – <span data-text-source="month.feb"></span>
+                </div>
                 <div class="section_item--value">
-                  <a href="http://nedopusti.ru/" class="section_item--big-text section_item--link -popup">nedopusti.ru</a><br>
+                  <a href="http://nedopusti.ru/" class="section_item--big-text section_item--link -popup">
+                    <span data-text-source="project.nedo.title"></span>
+                  </a>
+                  <br>
                   <span data-text-source="project.nedo.desc"></span>
                   <small class="section_item--muted-text" data-text-source="project.nedo.type"></small>
                 </div>
@@ -403,95 +498,153 @@
                 <span class="section_item--heading-text">2014</span>
               </div>
               <div class="section_item--group">
-                <div class="section_item--label"><span data-text-source="month.dec"></span></div>
+                <div class="section_item--label">
+                  <span data-text-source="month.dec"></span>
+                </div>
                 <div class="section_item--value">
-                  <a href="http://vertigo.retro.vira-tech.ru/" class="section_item--big-text section_item--link -popup">mvert.ru</a>
-                  <a href="http://vertigo.retro.vira-tech.ru/admin/" class="section_item--small-link -popup"><span data-text-source="common.admin-panel"></span></a>
+                  <a href="http://vertigo.retro.vira-tech.ru/" class="section_item--big-text section_item--link -popup">
+                    <span data-text-source="project.mvert.title"></span>
+                  </a>
+                  <a href="http://vertigo.retro.vira-tech.ru/admin/" class="section_item--small-link -popup">
+                    <span data-text-source="common.admin-panel"></span>
+                  </a>
                   <br>
                   <span data-text-source="project.mvert.desc"></span>
                   <small class="section_item--muted-text" data-text-source="project.mvert.type"></small>
                 </div>
               </div>
               <div class="section_item--group">
-                <div class="section_item--label"><span data-text-source="month.nov"></span></div>
+                <div class="section_item--label">
+                  <span data-text-source="month.nov"></span>
+                </div>
                 <div class="section_item--value">
-                  <a href="http://ultimateaudio.retro.vira-tech.ru/" class="section_item--big-text section_item--link -popup">ultimateaudio.ru</a><br>
+                  <a href="http://ultimateaudio.retro.vira-tech.ru/" class="section_item--big-text section_item--link -popup">
+                    <span data-text-source="project.ulaud.title"></span>
+                  </a>
+                  <br>
                   <span data-text-source="project.ulaud.desc"></span>
                   <small class="section_item--muted-text" data-text-source="project.ulaud.type"></small>
                 </div>
               </div>
               <div class="section_item--group">
-                <div class="section_item--label"><span data-text-source="month.oct"></span></div>
+                <div class="section_item--label">
+                  <span data-text-source="month.oct"></span>
+                </div>
                 <div class="section_item--value">
-                  <a href="http://meule.retro.vira-tech.ru/" class="section_item--big-text section_item--link -popup">meule.ru</a>
-                  <a href="http://meule.retro.vira-tech.ru/admin/" class="section_item--small-link -popup"><span data-text-source="common.admin-panel"></span></a>
+                  <a href="http://meule.retro.vira-tech.ru/" class="section_item--big-text section_item--link -popup">
+                    <span data-text-source="project.meule.title"></span>
+                  </a>
+                  <a href="http://meule.retro.vira-tech.ru/admin/" class="section_item--small-link -popup">
+                    <span data-text-source="common.admin-panel"></span>
+                  </a>
                   <br>
                   <span data-text-source="project.meule.desc"></span>
                   <small class="section_item--muted-text" data-text-source="project.meule.type"></small>
                 </div>
               </div>
               <div class="section_item--group">
-                <div class="section_item--label"><span data-text-source="month.sep"></span></div>
+                <div class="section_item--label">
+                  <span data-text-source="month.sep"></span>
+                </div>
                 <div class="section_item--value">
-                  <a href="http://quicklance.retro.vira-tech.ru/" class="section_item--big-text section_item--link -popup">quicklance.ru</a><br>
+                  <a href="http://quicklance.retro.vira-tech.ru/" class="section_item--big-text section_item--link -popup">
+                    <span data-text-source="project.quick.title"></span>
+                  </a>
+                  <br>
                   <span data-text-source="project.quick.desc"></span>
                   <small class="section_item--muted-text" data-text-source="project.quick.type"></small>
                 </div>
               </div>
               <div class="section_item--group">
-                <div class="section_item--label"><span data-text-source="month.jun"></span> – <span data-text-source="month.nov"></span></div>
+                <div class="section_item--label">
+                  <span data-text-source="month.jun"></span> – <span data-text-source="month.nov"></span>
+                </div>
                 <div class="section_item--value">
-                  <a href="http://www.president-sovet.ru/" class="section_item--big-text section_item--link -popup">president-sovet.ru</a><br>
+                  <a href="http://www.president-sovet.ru/" class="section_item--big-text section_item--link -popup">
+                    <span data-text-source="project.prsov.title"></span>
+                  </a>
+                  <br>
                   <span data-text-source="project.prsov.desc"></span>
                   <small class="section_item--muted-text" data-text-source="project.prsov.type"></small>
                 </div>
               </div>
               <div class="section_item--group">
-                <div class="section_item--label"><span data-text-source="month.jun"></span> – <span data-text-source="month.jul"></span></div>
+                <div class="section_item--label">
+                  <span data-text-source="month.jun"></span> – <span data-text-source="month.jul"></span>
+                </div>
                 <div class="section_item--value">
-                  <a href="http://retailator.retro.vira-tech.ru/" class="section_item--big-text section_item--link -popup">retailator</a><br>
+                  <a href="http://retailator.retro.vira-tech.ru/" class="section_item--big-text section_item--link -popup">
+                    <span data-text-source="project.retail.title"></span>
+                  </a>
+                  <br>
                   <span data-text-source="project.retail.desc"></span>
                   <small class="section_item--muted-text" data-text-source="project.retail.type"></small>
                 </div>
               </div>
               <div class="section_item--group">
-                <div class="section_item--label"><span data-text-source="month.may"></span> – <span data-text-source="month.dec"></span></div>
+                <div class="section_item--label">
+                  <span data-text-source="month.may"></span> – <span data-text-source="month.dec"></span>
+                </div>
                 <div class="section_item--value">
-                  <a href="http://rtrs.retro.vira-tech.ru/" class="section_item--big-text section_item--link -popup">rtrs.ru</a><br>
+                  <a href="http://rtrs.retro.vira-tech.ru/" class="section_item--big-text section_item--link -popup">
+                    <span data-text-source="project.rtrs.title"></span>
+                  </a>
+                  <br>
                   <span data-text-source="project.rtrs.desc"></span>
                   <small class="section_item--muted-text" data-text-source="project.rtrs.type"></small>
                 </div>
               </div>
               <div class="section_item--group">
-                <div class="section_item--label"><span data-text-source="month.mar"></span></div>
+                <div class="section_item--label">
+                  <span data-text-source="month.mar"></span>
+                </div>
                 <div class="section_item--value">
-                  <a href="http://hotline.retro.vira-tech.ru/" class="section_item--big-text section_item--link -popup">hotline.poiskdetei.ru</a><br>
+                  <a href="http://hotline.retro.vira-tech.ru/" class="section_item--big-text section_item--link -popup">
+                    <span data-text-source="project.hotline.title"></span>
+                  </a>
+                  <br>
                   <span data-text-source="project.hotline.desc"></span>
                   <small class="section_item--muted-text" data-text-source="project.hotline.type"></small>
                 </div>
               </div>
               <div class="section_item--group">
-                <div class="section_item--label"><span data-text-source="month.jan"></span> – <span data-text-source="month.mar"></span></div>
+                <div class="section_item--label">
+                  <span data-text-source="month.jan"></span> – <span data-text-source="month.mar"></span>
+                </div>
                 <div class="section_item--value">
-                  <a href="http://democrator.retro.vira-tech.ru/" class="section_item--big-text section_item--link -popup">democrator.ru</a><br>
+                  <a href="http://democrator.retro.vira-tech.ru/" class="section_item--big-text section_item--link -popup">
+                    <span data-text-source="project.democr.title"></span>
+                  </a>
+                  <br>
                   <span data-text-source="project.democr.desc"></span>
                   <small class="section_item--muted-text" data-text-source="project.democr.type"></small>
                 </div>
               </div>
               <div class="section_item--group">
-                <div class="section_item--label"><span data-text-source="month.feb"></span> – <span data-text-source="month.mar"></span></div>
+                <div class="section_item--label">
+                  <span data-text-source="month.feb"></span> – <span data-text-source="month.mar"></span>
+                </div>
                 <div class="section_item--value">
-                  <a href="http://lostchildren.retro.vira-tech.ru/" class="section_item--big-text section_item--link -popup">propalideti.ru</a>
-                  <a href="http://lostchildren.retro.vira-tech.ru/admin/" class="section_item--small-link -popup"><span data-text-source="common.admin-panel"></span></a>
+                  <a href="http://lostchildren.retro.vira-tech.ru/" class="section_item--big-text section_item--link -popup">
+                    <span data-text-source="project.misschild.title"></span>
+                  </a>
+                  <a href="http://lostchildren.retro.vira-tech.ru/admin/" class="section_item--small-link -popup">
+                    <span data-text-source="common.admin-panel"></span>
+                  </a>
                   <br>
                   <span data-text-source="project.misschild.desc"></span>
                   <small class="section_item--muted-text" data-text-source="project.misschild.type"></small>
                 </div>
               </div>
               <div class="section_item--group">
-                <div class="section_item--label"><span data-text-source="month.jan"></span> – <span data-text-source="month.feb"></span></div>
+                <div class="section_item--label">
+                  <span data-text-source="month.jan"></span> – <span data-text-source="month.feb"></span>
+                </div>
                 <div class="section_item--value">
-                  <a href="http://alertservice.retro.vira-tech.ru/" class="section_item--big-text section_item--link -popup">alertservice.ru</a><br>
+                  <a href="http://alertservice.retro.vira-tech.ru/" class="section_item--big-text section_item--link -popup">
+                    <span data-text-source="project.alert.title"></span>
+                  </a>
+                  <br>
                   <span data-text-source="project.alert.desc"></span>
                   <small class="section_item--muted-text" data-text-source="project.alert.type"></small>
                 </div>
@@ -502,94 +655,151 @@
                 <span class="section_item--heading-text">2013</span>
               </div>
               <div class="section_item--group">
-                <div class="section_item--label"><span data-text-source="month.nov"></span> – <span data-text-source="month.dec"></span></div>
+                <div class="section_item--label">
+                  <span data-text-source="month.nov"></span> – <span data-text-source="month.dec"></span>
+                </div>
                 <div class="section_item--value">
-                  <a href="http://wnsm.retro.vira-tech.ru/" class="section_item--big-text section_item--link -popup">karta.rtrs.rf</a><br>
+                  <a href="http://wnsm.retro.vira-tech.ru/" class="section_item--big-text section_item--link -popup">
+                    <span data-text-source="project.wnsm.title"></span>
+                  </a>
+                  <br>
                   <span data-text-source="project.wnsm.desc"></span>
                   <small class="section_item--muted-text" data-text-source="project.wnsm.type"></small>
                 </div>
               </div>
               <div class="section_item--group">
-                <div class="section_item--label"><span data-text-source="month.oct"></span> – <span data-text-source="month.dec"></span></div>
+                <div class="section_item--label">
+                  <span data-text-source="month.oct"></span> – <span data-text-source="month.dec"></span>
+                </div>
                 <div class="section_item--value">
-                  <a href="http://activeblog.retro.vira-tech.ru/" class="section_item--big-text section_item--link -popup">activeblog.com</a><br>
+                  <a href="http://activeblog.retro.vira-tech.ru/" class="section_item--big-text section_item--link -popup">
+                    <span data-text-source="project.blog.title"></span>
+                  </a>
+                  <br>
                   <span data-text-source="project.blog.desc"></span>
                   <small class="section_item--muted-text" data-text-source="project.blog.type"></small>
                 </div>
               </div>
               <div class="section_item--group">
-                <div class="section_item--label"><span data-text-source="month.aug"></span> – <span data-text-source="month.sep"></span></div>
+                <div class="section_item--label">
+                  <span data-text-source="month.aug"></span> – <span data-text-source="month.sep"></span>
+                </div>
                 <div class="section_item--value">
-                  <a href="http://pravoedelo.retro.vira-tech.ru/" class="section_item--big-text section_item--link -popup">pravoedelo.ru</a>
-                  <a href="http://pravoedelo.retro.vira-tech.ru/admin/" class="section_item--small-link -popup"><span data-text-source="common.admin-panel"></span></a>
+                  <a href="http://pravoedelo.retro.vira-tech.ru/" class="section_item--big-text section_item--link -popup">
+                    <span data-text-source="project.pd.title"></span>
+                  </a>
+                  <a href="http://pravoedelo.retro.vira-tech.ru/admin/" class="section_item--small-link -popup">
+                    <span data-text-source="common.admin-panel"></span>
+                  </a>
                   <br>
                   <span data-text-source="project.pd.desc"></span>
                   <small class="section_item--muted-text" data-text-source="project.pd.type"></small>
                 </div>
               </div>
               <div class="section_item--group">
-                <div class="section_item--label"><span data-text-source="month.jul"></span></div>
+                <div class="section_item--label">
+                  <span data-text-source="month.jul"></span>
+                </div>
                 <div class="section_item--value">
-                  <a href="http://rolexcup.retro.vira-tech.ru/" class="section_item--big-text section_item--link -popup">rolexcupregatta.ru</a>
-                  <a href="http://rolexcup.retro.vira-tech.ru/admin/" class="section_item--small-link -popup"><span data-text-source="common.admin-panel"></span></a>
+                  <a href="http://rolexcup.retro.vira-tech.ru/" class="section_item--big-text section_item--link -popup">
+                    <span data-text-source="project.rolexcup.title"></span>
+                  </a>
+                  <a href="http://rolexcup.retro.vira-tech.ru/admin/" class="section_item--small-link -popup">
+                    <span data-text-source="common.admin-panel"></span>
+                  </a>
                   <br>
                   <span data-text-source="project.rolexcup.desc"></span>
                   <small class="section_item--muted-text" data-text-source="project.rolexcup.type"></small>
                 </div>
               </div>
               <div class="section_item--group">
-                <div class="section_item--label"><span data-text-source="month.jun"></span></div>
+                <div class="section_item--label">
+                  <span data-text-source="month.jun"></span>
+                </div>
                 <div class="section_item--value">
-                  <a href="http://mashali.retro.vira-tech.ru/" class="section_item--big-text section_item--link -popup">mashalitour.ru</a>
-                  <a href="http://mashali.retro.vira-tech.ru/admin/" class="section_item--small-link -popup"><span data-text-source="common.admin-panel"></span></a>
+                  <a href="http://mashali.retro.vira-tech.ru/" class="section_item--big-text section_item--link -popup">
+                    <span data-text-source="project.mashali.title"></span>
+                  </a>
+                  <a href="http://mashali.retro.vira-tech.ru/admin/" class="section_item--small-link -popup">
+                    <span data-text-source="common.admin-panel"></span>
+                  </a>
                   <br>
                   <span data-text-source="project.mashali.desc"></span>
                   <small class="section_item--muted-text" data-text-source="project.mashali.type"></small>
                 </div>
               </div>
               <div class="section_item--group">
-                <div class="section_item--label"><span data-text-source="month.may"></span></div>
+                <div class="section_item--label">
+                  <span data-text-source="month.may"></span>
+                </div>
                 <div class="section_item--value">
-                  <a href="http://mosaudioshow.retro.vira-tech.ru/" class="section_item--big-text section_item--link -popup">moscowaudioshow.ru</a>
-                  <a href="http://mosaudioshow.retro.vira-tech.ru/admin/" class="section_item--small-link -popup"><span data-text-source="common.admin-panel"></span></a>
+                  <a href="http://mosaudioshow.retro.vira-tech.ru/" class="section_item--big-text section_item--link -popup">
+                    <span data-text-source="project.mas.title"></span>
+                  </a>
+                  <a href="http://mosaudioshow.retro.vira-tech.ru/admin/" class="section_item--small-link -popup">
+                    <span data-text-source="common.admin-panel"></span>
+                  </a>
                   <br>
                   <span data-text-source="project.mas.desc"></span>
                   <small class="section_item--muted-text" data-text-source="project.mas.type"></small>
                 </div>
               </div>
               <div class="section_item--group">
-                <div class="section_item--label"><span data-text-source="month.mar"></span></div>
+                <div class="section_item--label">
+                  <span data-text-source="month.mar"></span>
+                </div>
                 <div class="section_item--value">
-                  <a href="http://docli.retro.vira-tech.ru/" class="section_item--big-text section_item--link -popup">docli.ru</a>
-                  <a href="http://docli.retro.vira-tech.ru/admin/" class="section_item--small-link -popup"><span data-text-source="common.admin-panel"></span></a>
+                  <a href="http://docli.retro.vira-tech.ru/" class="section_item--big-text section_item--link -popup">
+                    <span data-text-source="project.docli.title"></span>
+                  </a>
+                  <a href="http://docli.retro.vira-tech.ru/admin/" class="section_item--small-link -popup">
+                    <span data-text-source="common.admin-panel"></span>
+                  </a>
                   <br>
                   <span data-text-source="project.docli.desc"></span>
                   <small class="section_item--muted-text" data-text-source="project.docli.type"></small>
                 </div>
               </div>
               <div class="section_item--group">
-                <div class="section_item--label"><span data-text-source="month.jan"></span> – <span data-text-source="month.apr"></span></div>
+                <div class="section_item--label">
+                  <span data-text-source="month.jan"></span> – <span data-text-source="month.apr"></span>
+                </div>
                 <div class="section_item--value">
-                  <a href="http://steptuning.retro.vira-tech.ru/" class="section_item--big-text section_item--link -popup">steptuning.ru</a>
-                  <a href="http://steptuning.retro.vira-tech.ru/admin/" class="section_item--small-link -popup"><span data-text-source="common.admin-panel"></span></a>
+                  <a href="http://steptuning.retro.vira-tech.ru/" class="section_item--big-text section_item--link -popup">
+                    <span data-text-source="project.shop.title"></span>
+                  </a>
+                  <a href="http://steptuning.retro.vira-tech.ru/admin/" class="section_item--small-link -popup">
+                    <span data-text-source="common.admin-panel"></span>
+                  </a>
                   <br>
                   <span data-text-source="project.shop.desc"></span>
                   <small class="section_item--muted-text" data-text-source="project.shop.type"></small>
                 </div>
               </div>
               <div class="section_item--group">
-                <div class="section_item--label"><span data-text-source="month.jan"></span></div>
+                <div class="section_item--label">
+                  <span data-text-source="month.jan"></span>
+                </div>
                 <div class="section_item--value">
-                  <a href="http://artfin.retro.vira-tech.ru/" class="section_item--big-text section_item--link -popup">Artstyle Finance</a><br>
+                  <a href="http://artfin.retro.vira-tech.ru/" class="section_item--big-text section_item--link -popup">
+                    <span data-text-source="project.artfin.title"></span>
+                  </a>
+                  <br>
                   <span data-text-source="project.artfin.desc"></span>
                   <small class="section_item--muted-text" data-text-source="project.artfin.type"></small>
                 </div>
               </div>
               <div class="section_item--group">
-                <div class="section_item--label"><span data-text-source="month.jan"></span></div>
+                <div class="section_item--label">
+                  <span data-text-source="month.jan"></span>
+                </div>
                 <div class="section_item--value">
-                  <a href="http://artstyle.retro.vira-tech.ru/" class="section_item--big-text section_item--link -popup">artstyle.ru</a>
-                  <a href="http://artstyle.retro.vira-tech.ru/admin/" class="section_item--small-link -popup"><span data-text-source="common.admin-panel"></span></a>
+                  <a href="http://artstyle.retro.vira-tech.ru/" class="section_item--big-text section_item--link -popup">
+                    <span data-text-source="project.art.title"></span>
+                  </a>
+                  <a href="http://artstyle.retro.vira-tech.ru/admin/" class="section_item--small-link -popup">
+                    <span data-text-source="common.admin-panel"></span>
+                  </a>
                   <br>
                   <span data-text-source="project.art.desc"></span>
                   <small class="section_item--muted-text" data-text-source="project.art.type"></small>
@@ -601,87 +811,140 @@
                 <span class="section_item--heading-text">2012</span>
               </div>
               <div class="section_item--group">
-                <div class="section_item--label"><span data-text-source="month.dec"></span></div>
+                <div class="section_item--label">
+                  <span data-text-source="month.dec"></span>
+                </div>
                 <div class="section_item--value">
-                  <a href="http://sibuslugi.retro.vira-tech.ru/" class="section_item--big-text section_item--link -popup">sibuslugi.ru</a>
-                  <a href="http://sibuslugi.retro.vira-tech.ru/admin/" class="section_item--small-link -popup"><span data-text-source="common.admin-panel"></span></a>
+                  <a href="http://sibuslugi.retro.vira-tech.ru/" class="section_item--big-text section_item--link -popup">
+                    <span data-text-source="project.sibusl.title"></span>
+                  </a>
+                  <a href="http://sibuslugi.retro.vira-tech.ru/admin/" class="section_item--small-link -popup">
+                    <span data-text-source="common.admin-panel"></span>
+                  </a>
                   <br>
                   <span data-text-source="project.sibusl.desc"></span>
                   <small class="section_item--muted-text" data-text-source="project.sibusl.type"></small>
                 </div>
               </div>
               <div class="section_item--group">
-                <div class="section_item--label"><span data-text-source="month.sep"></span> – <span data-text-source="month.oct"></span></div>
+                <div class="section_item--label">
+                  <span data-text-source="month.sep"></span> – <span data-text-source="month.oct"></span>
+                </div>
                 <div class="section_item--value">
-                  <a href="http://lawclinic.retro.vira-tech.ru/" class="section_item--big-text section_item--link -popup">lawclinic.ru</a><br>
-                  <span data-text-source="project.lawcl.desc"></span>
+                  <a href="http://lawclinic.retro.vira-tech.ru/" class="section_item--big-text section_item--link -popup">
+                    <span data-text-source="project.lawclinic.title"></span>
+                  </a>
+                  <br>
+                  <span data-text-source="project.lawclinic.desc"></span>
                   <small class="section_item--muted-text" data-text-source="project.lawclinic.type"></small>
                 </div>
               </div>
               <div class="section_item--group">
-                <div class="section_item--label"><span data-text-source="month.sep"></span> – <span data-text-source="month.oct"></span></div>
+                <div class="section_item--label">
+                  <span data-text-source="month.sep"></span> – <span data-text-source="month.oct"></span>
+                </div>
                 <div class="section_item--value">
-                  <a href="http://detivrunete.retro.vira-tech.ru/" class="section_item--big-text section_item--link -popup">detivrunete.ru</a>
-                  <a href="http://detivrunete.retro.vira-tech.ru/admin/" class="section_item--small-link -popup"><span data-text-source="common.admin-panel"></span></a>
+                  <a href="http://detivrunete.retro.vira-tech.ru/" class="section_item--big-text section_item--link -popup">
+                    <span data-text-source="project.detivru.title"></span>
+                  </a>
+                  <a href="http://detivrunete.retro.vira-tech.ru/admin/" class="section_item--small-link -popup">
+                    <span data-text-source="common.admin-panel"></span>
+                  </a>
                   <br>
                   <span data-text-source="project.detivru.desc"></span>
                   <small class="section_item--muted-text" data-text-source="project.detivru.type"></small>
                 </div>
               </div>
               <div class="section_item--group">
-                <div class="section_item--label"><span data-text-source="month.sep"></span></div>
+                <div class="section_item--label">
+                  <span data-text-source="month.sep"></span>
+                </div>
                 <div class="section_item--value">
-                  <a href="http://bogoslovo.retro.vira-tech.ru/" class="section_item--big-text section_item--link -popup">bgs-agro.ru</a>
-                  <a href="http://bogoslovo.retro.vira-tech.ru/admin/" class="section_item--small-link -popup"><span data-text-source="common.admin-panel"></span></a>
+                  <a href="http://bogoslovo.retro.vira-tech.ru/" class="section_item--big-text section_item--link -popup">
+                    <span data-text-source="project.bogosl.title"></span>
+                  </a>
+                  <a href="http://bogoslovo.retro.vira-tech.ru/admin/" class="section_item--small-link -popup">
+                    <span data-text-source="common.admin-panel"></span>
+                  </a>
                   <br>
                   <span data-text-source="project.bogosl.desc"></span>
                   <small class="section_item--muted-text" data-text-source="project.bogosl.type"></small>
                 </div>
               </div>
               <div class="section_item--group">
-                <div class="section_item--label"><span data-text-source="month.aug"></span> – <span data-text-source="month.oct"></span></div>
+                <div class="section_item--label">
+                  <span data-text-source="month.aug"></span> – <span data-text-source="month.oct"></span>
+                </div>
                 <div class="section_item--value">
-                  <a href="http://videobil.retro.vira-tech.ru/" class="section_item--big-text section_item--link -popup">videobil.ru</a><br>
+                  <a href="http://videobil.retro.vira-tech.ru/" class="section_item--big-text section_item--link -popup">
+                    <span data-text-source="project.video.title"></span>
+                  </a>
+                  <br>
                   <span data-text-source="project.video.desc"></span>
                   <small class="section_item--muted-text" data-text-source="project.video.type"></small>
                 </div>
               </div>
               <div class="section_item--group">
-                <div class="section_item--label"><span data-text-source="month.may"></span> – <span data-text-source="month.sep"></span></div>
+                <div class="section_item--label">
+                  <span data-text-source="month.may"></span> – <span data-text-source="month.sep"></span>
+                </div>
                 <div class="section_item--value">
-                  <a href="http://teaser.retro.vira-tech.ru/" class="section_item--big-text section_item--link -popup">teaser-goods.ru</a><br>
+                  <a href="http://teaser.retro.vira-tech.ru/" class="section_item--big-text section_item--link -popup">
+                    <span data-text-source="project.teaser.title"></span>
+                  </a>
+                  <br>
                   <span data-text-source="project.teaser.desc"></span>
                   <small class="section_item--muted-text" data-text-source="project.teaser.type"></small>
                 </div>
               </div>
               <div class="section_item--group">
-                <div class="section_item--label"><span data-text-source="month.may"></span></div>
+                <div class="section_item--label">
+                  <span data-text-source="month.may"></span>
+                </div>
                 <div class="section_item--value">
-                  <a href="http://mediatask.retro.vira-tech.ru/" class="section_item--big-text section_item--link -popup">mediatask</a><br>
+                  <a href="http://mediatask.retro.vira-tech.ru/" class="section_item--big-text section_item--link -popup">
+                    <span data-text-source="project.mediatask.title"></span>
+                  </a>
+                  <br>
                   <span data-text-source="project.mediatask.desc"></span>
                   <small class="section_item--muted-text" data-text-source="project.mediatask.type"></small>
                 </div>
               </div>
               <div class="section_item--group">
-                <div class="section_item--label"><span data-text-source="month.may"></span> – <span data-text-source="month.jun"></span></div>
+                <div class="section_item--label">
+                  <span data-text-source="month.may"></span> – <span data-text-source="month.jun"></span>
+                </div>
                 <div class="section_item--value">
-                  <a href="http://multishop.retro.vira-tech.ru/" class="section_item--big-text section_item--link -popup">multi-shop</a><br>
+                  <a href="http://multishop.retro.vira-tech.ru/" class="section_item--big-text section_item--link -popup">
+                    <span data-text-source="project.mshop.title"></span>
+                  </a>
+                  <br>
                   <span data-text-source="project.mshop.desc"></span>
                   <small class="section_item--muted-text" data-text-source="project.mshop.type"></small>
                 </div>
               </div>
               <div class="section_item--group">
-                <div class="section_item--label"><span data-text-source="month.mar"></span> – <span data-text-source="month.apr"></span></div>
+                <div class="section_item--label">
+                  <span data-text-source="month.mar"></span> – <span data-text-source="month.apr"></span>
+                </div>
                 <div class="section_item--value">
-                  <a href="http://cpa.retro.vira-tech.ru/" class="section_item--big-text section_item--link -popup">thor-cpa.com</a><br>
+                  <a href="http://cpa.retro.vira-tech.ru/" class="section_item--big-text section_item--link -popup">
+                    <span data-text-source="project.cpa.title"></span>
+                  </a>
+                  <br>
                   <span data-text-source="project.cpa.desc"></span>
                   <small class="section_item--muted-text" data-text-source="project.cpa.type"></small>
                 </div>
               </div>
               <div class="section_item--group">
-                <div class="section_item--label"><span data-text-source="month.jan"></span> – <span data-text-source="month.mar"></span></div>
+                <div class="section_item--label">
+                  <span data-text-source="month.jan"></span> – <span data-text-source="month.mar"></span>
+                </div>
                 <div class="section_item--value">
-                  <a href="http://actualnews.retro.vira-tech.ru/" class="section_item--big-text section_item--link -popup">actual-news.rf</a><br>
+                  <a href="http://actualnews.retro.vira-tech.ru/" class="section_item--big-text section_item--link -popup">
+                    <span data-text-source="project.actual.title"></span>
+                  </a>
+                  <br>
                   <span data-text-source="project.actual.desc"></span>
                   <small class="section_item--muted-text" data-text-source="project.actual.type"></small>
                 </div>
@@ -692,17 +955,27 @@
                 <span class="section_item--heading-text">2011</span>
               </div>
               <div class="section_item--group">
-                <div class="section_item--label"><span data-text-source="month.nov"></span> – <span data-text-source="month.dec"></span></div>
+                <div class="section_item--label">
+                  <span data-text-source="month.nov"></span> – <span data-text-source="month.dec"></span>
+                </div>
                 <div class="section_item--value">
-                  <a href="http://akulapera.retro.vira-tech.ru/" class="section_item--big-text section_item--link -popup">akula-pera.com</a><br>
+                  <a href="http://akulapera.retro.vira-tech.ru/" class="section_item--big-text section_item--link -popup">
+                    <span data-text-source="project.akula.title"></span>
+                  </a>
+                  <br>
                   <span data-text-source="project.akula.desc"></span>
                   <small class="section_item--muted-text" data-text-source="project.akula.type"></small>
                 </div>
               </div>
               <div class="section_item--group">
-                <div class="section_item--label"><span data-text-source="month.oct"></span> – <span data-text-source="month.dec"></span> +</div>
+                <div class="section_item--label">
+                  <span data-text-source="month.oct"></span> – <span data-text-source="month.dec"></span> +
+                </div>
                 <div class="section_item--value">
-                  <a href="https://activedns.net" class="section_item--big-text section_item--link -popup">activedns.net</a><br>
+                  <a href="https://activedns.net" class="section_item--big-text section_item--link -popup">
+                    <span data-text-source="project.dns.title"></span>
+                  </a>
+                  <br>
                   <span data-text-source="project.dns.desc"></span>
                   <small class="section_item--muted-text" data-text-source="project.dns.type"></small>
                 </div>
@@ -716,19 +989,19 @@
               </div>
               <div class="section_item--group">
                 <div class="section_item--label" data-text-source="title.email"></div>
-                <div class="section_item--value"><a href="mailto:evc22rus@gmail.com">evc22rus@gmail.com</a></div>
+                <div class="section_item--value" data-text-source="value.email"></div>
               </div>
               <div class="section_item--group">
                 <div class="section_item--label" data-text-source="title.phone"></div>
-                <div class="section_item--value">+7 901 707 9287</div>
+                <div class="section_item--value" data-text-source="value.phone"></div>
               </div>
               <div class="section_item--group">
                 <div class="section_item--label" data-text-source="title.skype"></div>
-                <div class="section_item--value">evc22rus</div>
+                <div class="section_item--value" data-text-source="value.skype"></div>
               </div>
               <div class="section_item--group">
                 <div class="section_item--label" data-text-source="title.telegram"></div>
-                <div class="section_item--value">@evc54</div>
+                <div class="section_item--value" data-text-source="value.telegram"></div>
               </div>
             </div>
             <div class="section_item--data">
@@ -742,6 +1015,310 @@
       </div>
     </div>
   </div>
-  <script src="js/app.js?2017111301" charset="utf-8"></script>
+  <div class="printable">
+    <div class="printable_heading">
+      <div class="printable_heading--about">
+        <div class="printable_heading--name" data-text-source="gen.name"></div>
+        <div class="printable_heading--title" data-text-source="gen.title"></div>
+        <div class="printable_heading--contact">
+          <ul class="printable_heading--contact-items">
+            <li class="printable_heading--contact-item">
+              <span data-text-source="value.email"></span>
+            </li>
+            <li class="printable_heading--contact-item">
+              <span data-text-source="value.phone"></span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="printable_heading--work">
+        <div class="printable_heading--work-heading" data-text-source="title.projects"></div>
+        <ul class="printable_heading--work-items">
+          <li class="printable_heading--work-item">
+            <strong class="printable_heading--work-title" data-text-source="project.dns.title"></strong>
+            <span class="printable_heading--work-description" data-text-source="project.dns.desc"></span>
+          </li>
+          <li class="printable_heading--work-item">
+            <strong class="printable_heading--work-title" data-text-source="project.vira.title"></strong>
+            <span class="printable_heading--work-description" data-text-source="project.vira.desc"></span>
+          </li>
+          <li class="printable_heading--work-item">
+            <strong class="printable_heading--work-title" data-text-source="project.prsov.title"></strong>
+            <span class="printable_heading--work-description" data-text-source="project.prsov.desc"></span>
+          </li>
+          <li class="printable_heading--work-item">
+            <strong class="printable_heading--work-title" data-text-source="project.fond.title"></strong>
+            <span class="printable_heading--work-description" data-text-source="project.fond.desc"></span>
+          </li>
+        </ul>
+        <div class="printable_heading--work-more" data-text-source="title.more-projects"></div>
+      </div>
+    </div>
+    <div class="printable_body">
+      <div class="printable_body--about">
+        <div class="printable_body--heading" data-text-source="title.statement"></div>
+        <div class="printable_body--text">
+          <p data-text-source="value.statement.1"></p>
+          <p data-text-source="value.statement.2"></p>
+          <p data-text-source="value.statement.3"></p>
+        </div>
+        <div class="printable_body--heading" data-text-source="title.education"></div>
+        <div class="printable_body--text">
+          <strong>
+            <span data-text-source="value.education.1.speciality"></span>
+            (<span data-text-source="value.education.1.period"></span>)
+          </strong>
+          <p data-text-source="value.education.1.university"></p>
+        </div>
+        <div class="printable_body--heading" data-text-source="title.employment"></div>
+        <div class="printable_body--text">
+          <strong>
+            <span data-text-source="value.employment.1.company"></span>
+            (<span data-text-source="value.employment.1.period"></span>)
+          </strong>
+          <p data-text-source="value.employment.1.position"></p>
+        </div>
+        <div class="printable_body--text">
+          <strong>
+            <span data-text-source="value.employment.2.company"></span>
+            (<span data-text-source="value.employment.2.period"></span>)
+          </strong>
+          <p data-text-source="value.employment.2.position"></p>
+        </div>
+        <div class="printable_body--text">
+          <strong>
+            <span data-text-source="value.employment.3.company"></span>
+            (<span data-text-source="value.employment.3.period"></span>)
+          </strong>
+          <p data-text-source="value.employment.3.position"></p>
+        </div>
+        <div class="printable_body--text">
+          <strong>
+            <span data-text-source="value.employment.4.company"></span>
+            (<span data-text-source="value.employment.4.period"></span>)
+          </strong>
+          <p data-text-source="value.employment.4.position"></p>
+        </div>
+      </div>
+      <div class="printable_body--skills">
+        <div class="printable_body--heading" data-text-source="title.skills"></div>
+        <div class="printable_body--text">
+          <span class="printable_body--skill-name">PHP</span>
+          <ul class="printable_body--skill-rate">
+            <li class="printable-body--skill-dot"></li>
+            <li class="printable-body--skill-dot"></li>
+            <li class="printable-body--skill-dot"></li>
+            <li class="printable-body--skill-dot"></li>
+            <li class="printable-body--skill-dot"></li>
+          </ul>
+        </div>
+        <div class="printable_body--text">
+          <span class="printable_body--skill-name">PHP / Yii</span>
+          <ul class="printable_body--skill-rate">
+            <li class="printable-body--skill-dot"></li>
+            <li class="printable-body--skill-dot"></li>
+            <li class="printable-body--skill-dot"></li>
+            <li class="printable-body--skill-dot"></li>
+            <li class="printable-body--skill-dot"></li>
+          </ul>
+        </div>
+        <div class="printable_body--text">
+          <span class="printable_body--skill-name">PHP / Cake</span>
+          <ul class="printable_body--skill-rate">
+            <li class="printable-body--skill-dot"></li>
+            <li class="printable-body--skill-dot"></li>
+            <li class="printable-body--skill-dot"></li>
+            <li class="printable-body--skill-dot"></li>
+            <li class="printable-body--skill-dot empty"></li>
+          </ul>
+        </div>
+        <div class="printable_body--text">
+          <span class="printable_body--skill-name">PHP / Laravel</span>
+          <ul class="printable_body--skill-rate">
+            <li class="printable-body--skill-dot"></li>
+            <li class="printable-body--skill-dot"></li>
+            <li class="printable-body--skill-dot"></li>
+            <li class="printable-body--skill-dot empty"></li>
+            <li class="printable-body--skill-dot empty"></li>
+          </ul>
+        </div>
+        <div class="printable_body--text">
+          <span class="printable_body--skill-name">HTML 5</span>
+          <ul class="printable_body--skill-rate">
+            <li class="printable-body--skill-dot"></li>
+            <li class="printable-body--skill-dot"></li>
+            <li class="printable-body--skill-dot"></li>
+            <li class="printable-body--skill-dot"></li>
+            <li class="printable-body--skill-dot"></li>
+          </ul>
+        </div>
+        <div class="printable_body--text">
+          <span class="printable_body--skill-name">CSS 3</span>
+          <ul class="printable_body--skill-rate">
+            <li class="printable-body--skill-dot"></li>
+            <li class="printable-body--skill-dot"></li>
+            <li class="printable-body--skill-dot"></li>
+            <li class="printable-body--skill-dot"></li>
+            <li class="printable-body--skill-dot"></li>
+          </ul>
+        </div>
+        <div class="printable_body--text">
+          <span class="printable_body--skill-name">JS / jQuery</span>
+          <ul class="printable_body--skill-rate">
+            <li class="printable-body--skill-dot"></li>
+            <li class="printable-body--skill-dot"></li>
+            <li class="printable-body--skill-dot"></li>
+            <li class="printable-body--skill-dot"></li>
+            <li class="printable-body--skill-dot"></li>
+          </ul>
+        </div>
+        <div class="printable_body--text">
+          <span class="printable_body--skill-name">JS / Node.js</span>
+          <ul class="printable_body--skill-rate">
+            <li class="printable-body--skill-dot"></li>
+            <li class="printable-body--skill-dot"></li>
+            <li class="printable-body--skill-dot empty"></li>
+            <li class="printable-body--skill-dot empty"></li>
+            <li class="printable-body--skill-dot empty"></li>
+          </ul>
+        </div>
+        <div class="printable_body--text">
+          <span class="printable_body--skill-name">JS / Vue.js</span>
+          <ul class="printable_body--skill-rate">
+            <li class="printable-body--skill-dot"></li>
+            <li class="printable-body--skill-dot"></li>
+            <li class="printable-body--skill-dot empty"></li>
+            <li class="printable-body--skill-dot empty"></li>
+            <li class="printable-body--skill-dot empty"></li>
+          </ul>
+        </div>
+        <div class="printable_body--text">
+          <span class="printable_body--skill-name">SQL</span>
+          <ul class="printable_body--skill-rate">
+            <li class="printable-body--skill-dot"></li>
+            <li class="printable-body--skill-dot"></li>
+            <li class="printable-body--skill-dot"></li>
+            <li class="printable-body--skill-dot"></li>
+            <li class="printable-body--skill-dot"></li>
+          </ul>
+        </div>
+        <div class="printable_body--text">
+          <span class="printable_body--skill-name">SQL / MySQL</span>
+          <ul class="printable_body--skill-rate">
+            <li class="printable-body--skill-dot"></li>
+            <li class="printable-body--skill-dot"></li>
+            <li class="printable-body--skill-dot"></li>
+            <li class="printable-body--skill-dot"></li>
+            <li class="printable-body--skill-dot"></li>
+          </ul>
+        </div>
+        <div class="printable_body--text">
+          <span class="printable_body--skill-name">SQL / Postgres</span>
+          <ul class="printable_body--skill-rate">
+            <li class="printable-body--skill-dot"></li>
+            <li class="printable-body--skill-dot"></li>
+            <li class="printable-body--skill-dot"></li>
+            <li class="printable-body--skill-dot empty"></li>
+            <li class="printable-body--skill-dot empty"></li>
+          </ul>
+        </div>
+        <div class="printable_body--text">
+          <span class="printable_body--skill-name">SQL / MS SQL</span>
+          <ul class="printable_body--skill-rate">
+            <li class="printable-body--skill-dot"></li>
+            <li class="printable-body--skill-dot"></li>
+            <li class="printable-body--skill-dot empty"></li>
+            <li class="printable-body--skill-dot empty"></li>
+            <li class="printable-body--skill-dot empty"></li>
+          </ul>
+        </div>
+        <div class="printable_body--text">
+          <span class="printable_body--skill-name">NoSQL / MemCache</span>
+          <ul class="printable_body--skill-rate">
+            <li class="printable-body--skill-dot"></li>
+            <li class="printable-body--skill-dot"></li>
+            <li class="printable-body--skill-dot"></li>
+            <li class="printable-body--skill-dot"></li>
+            <li class="printable-body--skill-dot"></li>
+          </ul>
+        </div>
+        <div class="printable_body--text">
+          <span class="printable_body--skill-name">NoSQL / Redis</span>
+          <ul class="printable_body--skill-rate">
+            <li class="printable-body--skill-dot"></li>
+            <li class="printable-body--skill-dot"></li>
+            <li class="printable-body--skill-dot"></li>
+            <li class="printable-body--skill-dot"></li>
+            <li class="printable-body--skill-dot empty"></li>
+          </ul>
+        </div>
+        <div class="printable_body--text">
+          <span class="printable_body--skill-name">Python</span>
+          <ul class="printable_body--skill-rate">
+            <li class="printable-body--skill-dot"></li>
+            <li class="printable-body--skill-dot"></li>
+            <li class="printable-body--skill-dot"></li>
+            <li class="printable-body--skill-dot empty"></li>
+            <li class="printable-body--skill-dot empty"></li>
+          </ul>
+        </div>
+        <div class="printable_body--text">
+          <span class="printable_body--skill-name">Python / Tornado</span>
+          <ul class="printable_body--skill-rate">
+            <li class="printable-body--skill-dot"></li>
+            <li class="printable-body--skill-dot"></li>
+            <li class="printable-body--skill-dot"></li>
+            <li class="printable-body--skill-dot empty"></li>
+            <li class="printable-body--skill-dot empty"></li>
+          </ul>
+        </div>
+        <div class="printable_body--text">
+          <span class="printable_body--skill-name">Python / Django</span>
+          <ul class="printable_body--skill-rate">
+            <li class="printable-body--skill-dot"></li>
+            <li class="printable-body--skill-dot"></li>
+            <li class="printable-body--skill-dot empty"></li>
+            <li class="printable-body--skill-dot empty"></li>
+            <li class="printable-body--skill-dot empty"></li>
+          </ul>
+        </div>
+        <div class="printable_body--text">
+          <span class="printable_body--skill-name">Python / Flask</span>
+          <ul class="printable_body--skill-rate">
+            <li class="printable-body--skill-dot"></li>
+            <li class="printable-body--skill-dot"></li>
+            <li class="printable-body--skill-dot empty"></li>
+            <li class="printable-body--skill-dot empty"></li>
+            <li class="printable-body--skill-dot empty"></li>
+          </ul>
+        </div>
+        <div class="printable_body--text">
+          <span class="printable_body--skill-name">LUA</span>
+          <ul class="printable_body--skill-rate">
+            <li class="printable-body--skill-dot"></li>
+            <li class="printable-body--skill-dot"></li>
+            <li class="printable-body--skill-dot"></li>
+            <li class="printable-body--skill-dot empty"></li>
+            <li class="printable-body--skill-dot empty"></li>
+          </ul>
+        </div>
+        <div class="printable_body--text">
+          <span class="printable_body--skill-name">C</span>
+          <ul class="printable_body--skill-rate">
+            <li class="printable-body--skill-dot"></li>
+            <li class="printable-body--skill-dot"></li>
+            <li class="printable-body--skill-dot empty"></li>
+            <li class="printable-body--skill-dot empty"></li>
+            <li class="printable-body--skill-dot empty"></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="preload-fonts">
+    <div class="preload-fonts open-sans-cond">тест <strong>тест</strong></div>
+    <div class="preload-fonts open-sans">тест <strong>тест</strong></div>
+  </div>
+  <script src="js/app.js?2017111401" charset="utf-8"></script>
 </body>
 </html>
