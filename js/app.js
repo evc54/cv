@@ -1127,4 +1127,12 @@
     e && e.preventDefault();
     window.print();
   });
+  WebFont.load({
+    custom: {
+      families: [ 'Open Sans', 'Open Sans Condensed' ]
+    },
+    active: function() {
+      print.classList.add('ready');
+    }
+  });
 }());
