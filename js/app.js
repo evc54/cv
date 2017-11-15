@@ -1128,8 +1128,8 @@
     window.print();
   });
   WebFont.load({
-    custom: {
-      families: [ 'Open Sans', 'Open Sans Condensed' ]
+    google: {
+      families: [ 'Open Sans:400,700', 'Open Sans Condensed:300,700' ]
     },
     active: function() {
       print.classList.add('ready');
