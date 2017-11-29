@@ -159,8 +159,8 @@
       'ru': 'Опыт работы'
     },
     'value.employment.1.period': {
-      'en': '2015 – Present',
-      'ru': '2015 – сейчас'
+      'en': '2015 – 2017',
+      'ru': '2015 – 2017'
     },
     'value.employment.1.period-text': {
       'en': '2 years, 1 month',
@@ -175,7 +175,7 @@
       'ru': 'Россия, Москва'
     },
     'value.employment.1.position': {
-      'en': 'Chief Technology Officer, Team Leader, Product Owner',
+      'en': 'CTO, Team Leader',
       'ru': 'Директор по ИТ'
     },
     'value.employment.2.period': {
@@ -195,7 +195,7 @@
       'ru': 'Россия, Москва'
     },
     'value.employment.2.position': {
-      'en': 'Chief Technology Officer, Team Leader',
+      'en': 'CTO, Team Leader',
       'ru': 'Руководитель отдела разработки и поддержки'
     },
     'value.employment.3.period': {
