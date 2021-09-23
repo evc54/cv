@@ -1,0 +1,45 @@
+[
+  {
+    "label":"Full Name",
+    "value":"Eugene Chernyshev",
+    "icon":"id-card-o"
+  },
+  {
+    "label":"Date of Birth",
+    "value":"November, 27th 1979",
+    "icon":"birthday"
+  },
+  {
+    "label":"Location",
+    "value":"Moscow, Russia",
+    "icon":"location"
+  },
+  {
+    "label":"Citizenship",
+    "value":"Russian Federation",
+    "icon":"globe-alt"
+  },
+  {
+    "label":"Language Speaking",
+    "value":"English (intermediate), Russian (native)",
+    "icon":"mic"
+  },
+  {
+    "label":"E-mail",
+    "value":"evc22rus@gmail.com",
+    "icon":"mail",
+    "link":"mailto:evc22rus@gmail.com"
+  },
+  {
+    "label":"Telegram",
+    "value":"@evc54",
+    "icon":"paper-plane",
+    "link":"https://t.me/evc54"
+  },
+  {
+    "label":"GitHub",
+    "value":"@evc54",
+    "icon":"github",
+    "link":"https://github.com/evc54"
+  }
+]

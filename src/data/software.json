@@ -1,0 +1,100 @@
+[
+  {
+    "section":"JavaScript",
+    "items":[
+      {
+        "skill":"Vue.js",
+        "expertise":80
+      },
+      {
+        "skill":"Nuxt.js",
+        "expertise":80
+      },
+      {
+        "skill":"Node.js",
+        "expertise":60
+      },
+      {
+        "skill":"Svelte",
+        "expertise":20
+      },
+      {
+        "skill":"jQuery",
+        "expertise":99
+      }
+    ]
+  },
+  {
+    "section":"PHP",
+    "items":[
+      {
+        "skill":"Yii",
+        "expertise": 90
+      },
+      {
+        "skill":"Laravel",
+        "expertise": 40
+      },
+      {
+        "skill":"Composer",
+        "expertise": 80
+      }
+    ]
+  },
+  {
+    "section":"Python",
+    "items":[
+      {
+        "skill":"Tornado",
+        "expertise": 60
+      },
+      {
+        "skill":"Flask",
+        "expertise": 20
+      }
+    ]
+  },
+  {
+    "section":"LUA",
+    "items":[
+      {
+        "skill":"Nginx",
+        "expertise": 60
+      },
+      {
+        "skill":"OpenResty",
+        "expertise": 40
+      }
+    ]
+  },
+  {
+    "section":"SQL",
+    "items":[
+      {
+        "skill":"MySQL",
+        "expertise": 90
+      },
+      {
+        "skill":"MariaDB",
+        "expertise": 80
+      },
+      {
+        "skill":"PostgreSQL",
+        "expertise": 70
+      }
+    ]
+  },
+  {
+    "section":"NoSQL",
+    "items":[
+      {
+        "skill":"Redis",
+        "expertise":70
+      },
+      {
+        "skill":"MemCache",
+        "expertise":100
+      }
+    ]
+  }
+]

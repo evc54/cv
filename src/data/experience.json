@@ -1,0 +1,46 @@
+[
+  {
+    "period":[2017,2021],
+    "duration":[3,7],
+    "position":"Full Stack Web Developer, Team Leader",
+    "company":"Studwork.org",
+    "page":"/project/studwork",
+    "country":"RU",
+    "description":[
+      "Support and further development of the web application, it's both frontend and backend parts.",
+      "Continuous integration with GH Actions & Ansible."
+    ]
+  },
+  {
+    "period":[2015,2017],
+    "duration":[2,2],
+    "position":"Chief Technology Officer",
+    "company":"Vira Technologies",
+    "page":"/project/vira-tech",
+    "country":"RU",
+    "description":[
+      "Running a start-up for self-hosted Tilda/Wix analogue named ViraCMS, written in PHP/JS with an infrastructure support such as community forums, application market etc."
+    ]
+  },
+  {
+    "period":[2012,2015],
+    "duration":[3,0],
+    "position":"Senior Web Developer",
+    "company":"ArtStyle Group",
+    "page":"/project/artstyle",
+    "country":"RU",
+    "description":[
+      "Working with plenty of technologies; mostly PHP, MySQL and jQuery."
+    ]
+  },
+  {
+    "period":[2011,2012],
+    "duration":[0,11],
+    "position":"Senior Web Developer",
+    "company":"Thor Group",
+    "country":"RU",
+    "description":[
+      "Developing advertising web applications for traffic redirection, including cost-per-action system, teaser network system and so on."
+    ]
+  }
+]
