@@ -51,8 +51,8 @@
     --color-muted #777
     --color-hover gold
     font-family CatamaranVariable, sans-serif
-    background url(/background.svg) 100% 100% no-repeat
-    background-color darkblue
+    background #539dff 100% 100% no-repeat
+    background-image embedurl('./assets/background.svg', "utf8")
     background-position center
     background-size cover
     background-attachment fixed
