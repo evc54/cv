@@ -1,5 +1,6 @@
 <script lang="ts">
   import photo from '../assets/photo.jpg';
+  import svelte from '../assets/svelte.svg';
 
   import Icon from './Icon.svelte';
 </script>
@@ -57,7 +58,7 @@
       class="svelte-link"
     >
       <img
-        src="/svelte.svg"
+        src={svelte}
         alt="Svelte"
         aria-label="Svelte"
         class="svelte-logo"
