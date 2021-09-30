@@ -11,6 +11,14 @@ function getMultiplier(size: number): string {
 }
 
 /**
+ * Return static files base url.
+ * @returns {string}
+ */
+export function getBaseUrl(): string {
+  return baseUrl;
+}
+
+/**
  * Return project logo image url.
  * @param {string} projectId project id
  * @param {number} size image size multiplier
