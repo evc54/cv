@@ -1,8 +1,11 @@
 <script lang="ts">
   import photo from '../assets/photo.jpg';
   import svelte from '../assets/svelte.svg';
+  import { getBaseUrl } from '../utils';
 
   import Icon from './Icon.svelte';
+
+  $: cvFileUrl = `${getBaseUrl()}/cv.pdf`;
 </script>
 
 <aside>
@@ -48,6 +51,15 @@
           </a>
         </li>
       </ul>
+
+      <a
+        href={cvFileUrl}
+        class="button"
+      >
+        <Icon name="file-pdf" />
+    
+        Download CV
+      </a>
   </div>
 
   <div class="bottom">
@@ -145,6 +157,11 @@
           a
             font-size 2.4rem
             border 0
+
+      .button
+        @media (max-width: 767px)
+          margin-top 1.5rem
+
 
     .bottom
       font-size 1.5rem
