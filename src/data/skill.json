@@ -1,98 +1,69 @@
 [
   {
-    "section":"Frontend",
-    "items":[
+    "section": "Backend",
+    "items": [
       {
-        "skill":"JavaScript",
-        "expertise":88
+        "skill": "JavaScript / TypeScript",
+        "expertise": 80
       },
       {
-        "skill":"TypeScript",
-        "expertise":50
+        "skill": "PHP",
+        "expertise": 70
       },
       {
-        "skill":"HTML",
-        "expertise":100
+        "skill": "Python",
+        "expertise": 40
       },
       {
-        "skill":"CSS",
-        "expertise":100
+        "skill": "Go",
+        "expertise": 10
       }
     ]
   },
   {
-    "section":"Backend",
-    "items":[
+    "section": "Frontend",
+    "items": [
       {
-        "skill":"PHP",
-        "expertise":90
+        "skill": "JavaScript / TypeScript",
+        "expertise": 80
       },
       {
-        "skill":"Python",
-        "expertise":40
-      },
-      {
-        "skill":"LUA",
-        "expertise":20
+        "skill": "HTML & CSS",
+        "expertise": 100
       }
     ]
   },
   {
-    "section":"Database",
-    "items":[
+    "section": "Database",
+    "items": [
       {
-        "skill":"SQL",
-        "expertise":90
+        "skill": "SQL",
+        "expertise": 90
       },
       {
-        "skill":"NoSQL",
-        "expertise":80
+        "skill": "NoSQL",
+        "expertise": 80
       },
       {
-        "skill":"GraphQL",
-        "expertise":10
+        "skill": "GraphQL",
+        "expertise": 10
       }
     ]
   },
   {
-    "section":"QA",
-    "items":[
+    "section": "CI / CD",
+    "items": [
       {
-        "skill":"Codeception",
-        "expertise":70
+        "skill": "Ansible",
+        "expertise": 40
       },
       {
-        "skill":"PHPUnit",
-        "expertise":70
+        "skill": "GitHub Actions",
+        "expertise": 30
       },
       {
-        "skill":"Jest",
-        "expertise":50
-      },
-      {
-        "skill":"Ava",
-        "expertise":30
-      }
-    ]
-  },
-  {
-    "section":"VCS, DevOps & CI",
-    "items":[
-      {
-        "skill":"Git",
-        "expertise":80
-      },
-      {
-        "skill":"Ansible",
-        "expertise":40
-      },
-      {
-        "skill":"GitHub Actions",
-        "expertise":30
-      },
-      {
-        "skill":"Bash",
-        "expertise":70
+        "skill": "GitLab CI",
+        "expertise": 30
       }
     ]
   }

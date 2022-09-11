@@ -1,6 +1,6 @@
 [
   {
-    "label":"Full Name",
+    "label":"Name",
     "value":"Eugene Chernyshev",
     "icon":"id-card-o"
   },
@@ -11,17 +11,12 @@
   },
   {
     "label":"Location",
-    "value":"Moscow, Russia",
+    "value":"Belgrade, Serbia",
     "icon":"location"
   },
   {
-    "label":"Citizenship",
-    "value":"Russian Federation",
-    "icon":"globe-alt"
-  },
-  {
-    "label":"Language Speaking",
-    "value":"English (intermediate), Russian (native)",
+    "label":"Languages",
+    "value":"English, Russian",
     "icon":"mic"
   },
   {
@@ -29,12 +24,6 @@
     "value":"evc22rus@gmail.com",
     "icon":"mail",
     "link":"mailto:evc22rus@gmail.com"
-  },
-  {
-    "label":"Telegram",
-    "value":"@evc54",
-    "icon":"paper-plane",
-    "link":"https://t.me/evc54"
   },
   {
     "label":"GitHub",

@@ -1,99 +1,69 @@
 [
   {
-    "section":"JavaScript",
-    "items":[
+    "section": "Backend",
+    "items": [
       {
-        "skill":"Vue.js",
-        "expertise":80
-      },
-      {
-        "skill":"Nuxt.js",
-        "expertise":80
-      },
-      {
-        "skill":"Node.js",
-        "expertise":60
-      },
-      {
-        "skill":"Svelte",
-        "expertise":20
-      },
-      {
-        "skill":"jQuery",
-        "expertise":99
-      }
-    ]
-  },
-  {
-    "section":"PHP",
-    "items":[
-      {
-        "skill":"Yii",
-        "expertise": 90
-      },
-      {
-        "skill":"Laravel",
-        "expertise": 40
-      },
-      {
-        "skill":"Composer",
-        "expertise": 80
-      }
-    ]
-  },
-  {
-    "section":"Python",
-    "items":[
-      {
-        "skill":"Tornado",
-        "expertise": 60
-      },
-      {
-        "skill":"Flask",
-        "expertise": 20
-      }
-    ]
-  },
-  {
-    "section":"LUA",
-    "items":[
-      {
-        "skill":"Nginx",
-        "expertise": 60
-      },
-      {
-        "skill":"OpenResty",
-        "expertise": 40
-      }
-    ]
-  },
-  {
-    "section":"SQL",
-    "items":[
-      {
-        "skill":"MySQL",
-        "expertise": 90
-      },
-      {
-        "skill":"MariaDB",
+        "skill": "Node.js",
         "expertise": 80
       },
       {
-        "skill":"PostgreSQL",
+        "skill": "Nuxt.js",
+        "expertise": 70
+      },
+      {
+        "skill": "Yii",
+        "expertise": 85
+      }
+    ]
+  },
+  {
+    "section": "Frontend",
+    "items": [
+      {
+        "skill": "Vue.js",
+        "expertise": 80
+      },
+      {
+        "skill": "Svelte",
+        "expertise": 30
+      },
+      {
+        "skill": "React",
+        "expertise": 10
+      }
+    ]
+  },
+  {
+    "section": "Database",
+    "items": [
+      {
+        "skill": "PostgreSQL",
+        "expertise": 85
+      },
+      {
+        "skill": "MySQL",
+        "expertise": 80
+      },
+      {
+        "skill": "Redis",
         "expertise": 70
       }
     ]
   },
   {
-    "section":"NoSQL",
-    "items":[
+    "section": "QA",
+    "items": [
       {
-        "skill":"Redis",
-        "expertise":70
+        "skill": "Jest",
+        "expertise": 70
       },
       {
-        "skill":"MemCache",
-        "expertise":100
+        "skill": "Codeception",
+        "expertise": 70
+      },
+      {
+        "skill": "Cypress",
+        "expertise": 10
       }
     ]
   }

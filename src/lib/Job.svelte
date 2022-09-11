@@ -1,11 +1,12 @@
 <script lang="ts">
-  import { link } from "svelte-spa-router";
+  import { link } from 'svelte-spa-router';
 
   export let period: number[];
   export let duration: number[];
   export let position: string;
   export let company: string;
   export let page: string = undefined;
+  export let url: string = undefined;
   export let country: string;
   export let description: string[];
 
@@ -14,7 +15,12 @@
       if (number < 1) return false;
       const label = index === 0 ? 'year' : 'month';
       const plural = number > 1 ? 's' : '';
-      return [number, `${label}${plural}`].join('&nbsp;');
+      const stillOn = period.length === 1 ? '+' : '';
+
+      return [
+        `${number}${stillOn}`,
+        `${label}${plural}`,
+      ].join('&nbsp;');
     })
     .filter(Boolean)
     .join(', ');
@@ -22,7 +28,9 @@
 
 <section class="job">
   <div>
-    <div class="period">{period[0]} &ndash; {period[1]}</div>
+    <div class="period">
+      {period[0]} &ndash; {period[1] ?? 'now'}
+    </div>
 
     <div class="duration">
       {@html durationHtml}
@@ -43,6 +51,13 @@
         >
           {company}
         </a>
+      {:else if url}
+      <a
+        href={url}
+        target="_blank"
+      >
+        {company}
+      </a>
       {:else}
         <span>
           {company}

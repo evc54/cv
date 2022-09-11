@@ -1,11 +1,8 @@
 <script lang="ts">
   import photo from '../assets/photo.jpg';
   import svelte from '../assets/svelte.svg';
-  import { getBaseUrl } from '../utils';
 
   import Icon from './Icon.svelte';
-
-  $: cvFileUrl = `${getBaseUrl()}/cv.pdf`;
 </script>
 
 <aside>
@@ -20,46 +17,37 @@
 
   <div class="about">
     <div class="name">Eugene Chernyshev</div>
-  
-    <div class="position">Full Stack Web Developer</div>
-    
-      <ul class="contact">
-        <li>
-          <a
-            href="mailto:evc22rus@gmail.com"
-            target="_blank"
-          >
-            <Icon name="mail-circled" />
-          </a>
-        </li>
-    
-        <li>
-          <a
-            href="https://t.me/evc54"
-            target="_blank"
-          >
-            <Icon name="telegram" />
-          </a>
-        </li>
-    
-        <li>
-          <a
-            href="https://github.com/evc54"
-            target="_blank"
-          >
-            <Icon name="github-circled" />
-          </a>
-        </li>
-      </ul>
 
-      <a
-        href={cvFileUrl}
-        class="button"
-      >
-        <Icon name="file-pdf" />
-    
-        Download CV
-      </a>
+    <div class="position">Senior Software Engineer</div>
+
+    <ul class="contact">
+      <li>
+        <a
+          href="mailto:evc22rus@gmail.com"
+          target="_blank"
+        >
+          <Icon name="mail-circled" />
+        </a>
+      </li>
+  
+      <li>
+        <a
+          href="https://t.me/evc54"
+          target="_blank"
+        >
+          <Icon name="telegram" />
+        </a>
+      </li>
+  
+      <li>
+        <a
+          href="https://github.com/evc54"
+          target="_blank"
+        >
+          <Icon name="github-circled" />
+        </a>
+      </li>
+    </ul>
   </div>
 
   <div class="bottom">
@@ -157,10 +145,6 @@
           a
             font-size 2.4rem
             border 0
-
-      .button
-        @media (max-width: 767px)
-          margin-top 1.5rem
 
 
     .bottom

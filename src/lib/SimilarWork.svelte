@@ -1,7 +1,8 @@
 <script type="ts">
   import work from '../data/work.json';
+  import { convertWorkToProject } from '../utils';
   
-  import Project, { convertWorkToProject } from './Project.svelte';
+  import Project from './Project.svelte';
 
   export let similar: string[]; // similar project ids
 

@@ -1,12 +1,3 @@
-<script context="module" lang="ts">
-  import type { Work, Project } from '../types';
-
-  export function convertWorkToProject(project: Work): Project {
-    const { id, name, summary, year, live = false, git = false } = project;
-    return { id, name, summary, year, live: Boolean(live), git: Boolean(git) };
-  }
-</script>
-
 <script lang="ts">
   import { link } from 'svelte-spa-router';
 

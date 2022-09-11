@@ -16,7 +16,7 @@
   </p>
 
   <p>
-    My name's Eugene and I'm senior web developer with 15+ years of experience.
+    My name's Eugene and I'm web developer with 15+ years of experience.
   </p>
 
   <p>

@@ -12,15 +12,19 @@
   import { fly } from 'svelte/transition';
 
   import Tag from '../lib/Tag.svelte';
-  import Project, { convertWorkToProject } from '../lib/Project.svelte';
+  import Project from '../lib/Project.svelte';
   import selectedTag from '../stores/selectedTag';
+  import { convertWorkToProject } from '../utils';
 
   import transition from './_transition';
 
   $: projects = work
-    .filter(({ tags }) => $selectedTag === 'all' ? true : tags.includes($selectedTag)) // filter by selected tag
-    .sort((a, b) => b.produced - a.produced)                                           // sort by production time
-    .map(convertWorkToProject);                                                        // reduce to required props
+    .filter(({ tags }) => $selectedTag === 'all'
+      ? true
+      : tags.includes($selectedTag),
+    )                                        // filter by selected tag
+    .sort((a, b) => b.produced - a.produced) // sort by production time
+    .map(convertWorkToProject);              // reduce to required props
 </script>
 
 <article

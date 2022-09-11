@@ -1,2459 +1,2456 @@
 [
   {
-    "id":"akula-pera",
-    "name":"Akula Pera",
-    "summary":"Copywriter and translator freelancers collaboration software.",
-    "detail":[
+    "id": "akula-pera",
+    "name": "Akula Pera",
+    "summary": "Copywriter and translator freelancers collaboration software.",
+    "detail": [
       "Connecting company managers with more than 500 freelancers.",
       "Written in PHP with Yii Framework v1.1 and jQuery as user interface helper. Implemented primitive billing system for freelance users to get paid their earnings."
     ],
-    "year":2011,
-    "produced":1320105600,
-    "tags":["js","jquery","php","yii","mysql"],
-    "images":[
+    "year": 2011,
+    "produced": 1320105600,
+    "tags": ["js", "jquery", "php", "yii", "mysql"],
+    "images": [
       {
-        "idx":1,
-        "alt":"site index"
+        "idx": 1,
+        "alt": "site index"
       },
       {
-        "idx":2,
-        "alt":"administrator dashboard"
+        "idx": 2,
+        "alt": "administrator dashboard"
       },
       {
-        "idx":3,
-        "alt":"users"
+        "idx": 3,
+        "alt": "users"
       },
       {
-        "idx":4,
-        "alt":"update an user"
+        "idx": 4,
+        "alt": "update an user"
       },
       {
-        "idx":5,
-        "alt":"articles"
+        "idx": 5,
+        "alt": "articles"
       },
       {
-        "idx":13,
-        "alt":"update an article"
+        "idx": 13,
+        "alt": "update an article"
       },
       {
-        "idx":6,
-        "alt":"money withdraw requests"
+        "idx": 6,
+        "alt": "money withdraw requests"
       },
       {
-        "idx":7,
-        "alt":"user balance history"
+        "idx": 7,
+        "alt": "user balance history"
       },
       {
-        "idx":8,
-        "alt":"user accumulated funds"
+        "idx": 8,
+        "alt": "user accumulated funds"
       },
       {
-        "idx":9,
-        "alt":"user payment rates"
+        "idx": 9,
+        "alt": "user payment rates"
       },
       {
-        "idx":10,
-        "alt":"user earning statistics"
+        "idx": 10,
+        "alt": "user earning statistics"
       },
       {
-        "idx":11,
-        "alt":"user's articles working on"
+        "idx": 11,
+        "alt": "user's articles working on"
       },
       {
-        "idx":12,
-        "alt":"report of corrector type user"
+        "idx": 12,
+        "alt": "report of corrector type user"
       }
     ],
-    "similar":["actual-news","teaser-cc","teaser-goods","thor-cpa"]
+    "similar": ["actual-news", "teaser-cc", "teaser-goods", "thor-cpa"]
   },
   {
-    "id":"actual-news",
-    "name":"Actual News",
-    "summary":"Traffic pump system for advertisement platform.",
-    "detail":[
+    "id": "actual-news",
+    "name": "Actual News",
+    "summary": "Traffic pump system for advertisement platform.",
+    "detail": [
       "Written in PHP with Yii Framework v1.1. Frontend was built with jQuery and jQueryTools plugin.",
       "Planned to get over 1M of teaser clicks per day from one server, but Yii makes this goal almost impossible, serves no more than 100 requests per second. It was replaced with teaser network server in relatively short period of time."
     ],
-    "year":2011,
-    "produced":1322697600,
-    "tags":["js","jquery","php","yii","mysql"],
-    "images":[
+    "year": 2011,
+    "produced": 1322697600,
+    "tags": ["js", "jquery", "php", "yii", "mysql"],
+    "images": [
       {
-        "idx":1,
-        "alt":"site index"
+        "idx": 1,
+        "alt": "site index"
       },
       {
-        "idx":2,
-        "alt":"article page with teasers"
+        "idx": 2,
+        "alt": "article page with teasers"
       },
       {
-        "idx":3,
-        "alt":"article's management"
+        "idx": 3,
+        "alt": "article's management"
       },
       {
-        "idx":7,
-        "alt":"create or update an article"
+        "idx": 7,
+        "alt": "create or update an article"
       },
       {
-        "idx":4,
-        "alt":"article's effectiveness statistics"
+        "idx": 4,
+        "alt": "article's effectiveness statistics"
       },
       {
-        "idx":5,
-        "alt":"article's visit statistics"
+        "idx": 5,
+        "alt": "article's visit statistics"
       },
       {
-        "idx":6,
-        "alt":"teaser's management"
+        "idx": 6,
+        "alt": "teaser's management"
       },
       {
-        "idx":8,
-        "alt":"create or update a teaser"
+        "idx": 8,
+        "alt": "create or update a teaser"
       },
       {
-        "idx":9,
-        "alt":"teaser's traffic source statistics"
+        "idx": 9,
+        "alt": "teaser's traffic source statistics"
       },
       {
-        "idx":10,
-        "alt":"teaser's visit statistics"
+        "idx": 10,
+        "alt": "teaser's visit statistics"
       },
       {
-        "idx":11,
-        "alt":"teaser's effectiveness statistics"
+        "idx": 11,
+        "alt": "teaser's effectiveness statistics"
       },
       {
-        "idx":12,
-        "alt":"teaser's geo targeting options management"
+        "idx": 12,
+        "alt": "teaser's geo targeting options management"
       },
       {
-        "idx":13,
-        "alt":"create or update teaser's geo targeting option"
+        "idx": 13,
+        "alt": "create or update teaser's geo targeting option"
       },
       {
-        "idx":14,
-        "alt":"user's management"
+        "idx": 14,
+        "alt": "user's management"
       },
       {
-        "idx":15,
-        "alt":"create or update an user"
+        "idx": 15,
+        "alt": "create or update an user"
       }
     ],
-    "similar":["akula-pera","teaser-cc","teaser-goods","thor-cpa"]
+    "similar": ["akula-pera", "teaser-cc", "teaser-goods", "thor-cpa"]
   },
   {
-    "id":"teaser-cc",
-    "name":"Teaser.cc",
-    "summary":"Teaser network advertisement platform focused on digital products.",
-    "detail":[
+    "id": "teaser-cc",
+    "name": "Teaser.cc",
+    "summary": "Teaser network advertisement platform focused on digital products.",
+    "detail": [
       "Written in PHP with Yii Framework v1.1. Frontend built with jQuery, jQueryTools and jQueryUI plugins. Server to provide teaser loading was an asyncronous Python application, built on top of Tornado framework and has it's own configuration interface accessible by WSDL protocol. Operational configuration was stored in Redis database. It also have had special image server to convert images of various format and size to required by the teaser configuration.",
       "After it's being deployed it served more than 50 000 000 teaser impressions and 10 000 000 clicks daily, and didn't hit the limit.",
       "Technically is a clone of Teaser.cc app with different visual theme."
     ],
-    "year":2012,
-    "produced":1330560000,
-    "tags":["js","jquery","php","yii","mysql","python","redis"],
-    "images":[
+    "year": 2012,
+    "produced": 1330560000,
+    "tags": ["js", "jquery", "php", "yii", "mysql", "python", "redis"],
+    "images": [
       {
-        "idx":1,
-        "alt":"site index"
+        "idx": 1,
+        "alt": "site index"
       },
       {
-        "idx":2,
-        "alt":"administrator dashboard"
+        "idx": 2,
+        "alt": "administrator dashboard"
       },
       {
-        "idx":3,
-        "alt":"sites traffic got from"
+        "idx": 3,
+        "alt": "sites traffic got from"
       },
       {
-        "idx":4,
-        "alt":"create or update a site"
+        "idx": 4,
+        "alt": "create or update a site"
       },
       {
-        "idx":5,
-        "alt":"block of teasers configuration management"
+        "idx": 5,
+        "alt": "block of teasers configuration management"
       },
       {
-        "idx":6,
-        "alt":"create of update a block of teasers"
+        "idx": 6,
+        "alt": "create of update a block of teasers"
       },
       {
-        "idx":7,
-        "alt":"advertisement campaign's management"
+        "idx": 7,
+        "alt": "advertisement campaign's management"
       },
       {
-        "idx":8,
-        "alt":"teaser's management"
+        "idx": 8,
+        "alt": "teaser's management"
       },
       {
-        "idx":9,
-        "alt":"create or update a teaser"
+        "idx": 9,
+        "alt": "create or update a teaser"
       },
       {
-        "idx":10,
-        "alt":"configuration of teaser's rotation"
+        "idx": 10,
+        "alt": "configuration of teaser's rotation"
       },
       {
-        "idx":11,
-        "alt":"traffic statistics: by date"
+        "idx": 11,
+        "alt": "traffic statistics: by date"
       },
       {
-        "idx":12,
-        "alt":"traffic statistics: by site"
+        "idx": 12,
+        "alt": "traffic statistics: by site"
       },
       {
-        "idx":13,
-        "alt":"traffic statistics: by campaign"
+        "idx": 13,
+        "alt": "traffic statistics: by campaign"
       },
       {
-        "idx":14,
-        "alt":"traffic statistics: by country"
+        "idx": 14,
+        "alt": "traffic statistics: by country"
       },
       {
-        "idx":15,
-        "alt":"epc statistics: by date"
+        "idx": 15,
+        "alt": "epc statistics: by date"
       },
       {
-        "idx":16,
-        "alt":"epc statistics: by campaign"
+        "idx": 16,
+        "alt": "epc statistics: by campaign"
       },
       {
-        "idx":17,
-        "alt":"epc statistics: by site"
+        "idx": 17,
+        "alt": "epc statistics: by site"
       },
       {
-        "idx":18,
-        "alt":"epc statistics: by teaser block"
+        "idx": 18,
+        "alt": "epc statistics: by teaser block"
       },
       {
-        "idx":19,
-        "alt":"financial log: earnings and withdrawals"
+        "idx": 19,
+        "alt": "financial log: earnings and withdrawals"
       },
       {
-        "idx":20,
-        "alt":"user's management"
+        "idx": 20,
+        "alt": "user's management"
       },
       {
-        "idx":21,
-        "alt":"payment rate's configuration"
+        "idx": 21,
+        "alt": "payment rate's configuration"
       },
       {
-        "idx":22,
-        "alt":"create of update a payment rate"
+        "idx": 22,
+        "alt": "create of update a payment rate"
       },
       {
-        "idx":23,
-        "alt":"click's redirection log"
+        "idx": 23,
+        "alt": "click's redirection log"
       }
     ],
-    "similar":["teaser-goods","thor-cpa","actual-news","akula-pera"]
+    "similar": ["teaser-goods", "thor-cpa", "actual-news", "akula-pera"]
   },
   {
-    "id":"teaser-goods",
-    "name":"Teaser Goods",
-    "summary":"Teaser network advertisement platform focused on real products.",
-    "detail":[
+    "id": "teaser-goods",
+    "name": "Teaser Goods",
+    "summary": "Teaser network advertisement platform focused on real products.",
+    "detail": [
       "Written in PHP with Yii Framework v1.1. Frontend built with jQuery, jQueryTools and jQueryUI plugins. Server to provide teaser loading was an asyncronous Python application, built on top of Tornado framework and has it's own configuration interface accessible by WSDL protocol. Operational configuration was stored in Redis database. It also have had special image server to convert images of various format and size to required by the teaser configuration.",
       "After it's being deployed it served more than 50 000 000 teaser impressions and 10 000 000 clicks daily, and didn't hit the limit.",
       "Technically is a clone of Teaser.cc app with different visual theme."
     ],
-    "year":2012,
-    "produced":1333238400,
-    "tags":["js","jquery","php","yii","mysql","python","redis"],
-    "images":[
+    "year": 2012,
+    "produced": 1333238400,
+    "tags": ["js", "jquery", "php", "yii", "mysql", "python", "redis"],
+    "images": [
       {
-        "idx":1,
-        "alt":"site index"
+        "idx": 1,
+        "alt": "site index"
       },
       {
-        "idx":2,
-        "alt":"administrator dashboard"
+        "idx": 2,
+        "alt": "administrator dashboard"
       },
       {
-        "idx":3,
-        "alt":"sites traffic got from"
+        "idx": 3,
+        "alt": "sites traffic got from"
       },
       {
-        "idx":4,
-        "alt":"create or update a site"
+        "idx": 4,
+        "alt": "create or update a site"
       },
       {
-        "idx":5,
-        "alt":"block of teasers configuration management"
+        "idx": 5,
+        "alt": "block of teasers configuration management"
       },
       {
-        "idx":6,
-        "alt":"create of update a block of teasers"
+        "idx": 6,
+        "alt": "create of update a block of teasers"
       },
       {
-        "idx":7,
-        "alt":"advertisement campaign's management"
+        "idx": 7,
+        "alt": "advertisement campaign's management"
       },
       {
-        "idx":8,
-        "alt":"teaser's management"
+        "idx": 8,
+        "alt": "teaser's management"
       },
       {
-        "idx":9,
-        "alt":"create or update a teaser"
+        "idx": 9,
+        "alt": "create or update a teaser"
       },
       {
-        "idx":10,
-        "alt":"configuration of teaser's rotation"
+        "idx": 10,
+        "alt": "configuration of teaser's rotation"
       },
       {
-        "idx":11,
-        "alt":"traffic statistics: by date"
+        "idx": 11,
+        "alt": "traffic statistics: by date"
       },
       {
-        "idx":12,
-        "alt":"traffic statistics: by site"
+        "idx": 12,
+        "alt": "traffic statistics: by site"
       },
       {
-        "idx":13,
-        "alt":"traffic statistics: by campaign"
+        "idx": 13,
+        "alt": "traffic statistics: by campaign"
       },
       {
-        "idx":14,
-        "alt":"traffic statistics: by country"
+        "idx": 14,
+        "alt": "traffic statistics: by country"
       },
       {
-        "idx":15,
-        "alt":"epc statistics: by date"
+        "idx": 15,
+        "alt": "epc statistics: by date"
       },
       {
-        "idx":16,
-        "alt":"epc statistics: by campaign"
+        "idx": 16,
+        "alt": "epc statistics: by campaign"
       },
       {
-        "idx":17,
-        "alt":"epc statistics: by site"
+        "idx": 17,
+        "alt": "epc statistics: by site"
       },
       {
-        "idx":18,
-        "alt":"epc statistics: by teaser block"
+        "idx": 18,
+        "alt": "epc statistics: by teaser block"
       },
       {
-        "idx":19,
-        "alt":"financial log: earnings and withdrawals"
+        "idx": 19,
+        "alt": "financial log: earnings and withdrawals"
       },
       {
-        "idx":20,
-        "alt":"user's management"
+        "idx": 20,
+        "alt": "user's management"
       },
       {
-        "idx":21,
-        "alt":"payment rate's configuration"
+        "idx": 21,
+        "alt": "payment rate's configuration"
       },
       {
-        "idx":22,
-        "alt":"create of update a payment rate"
+        "idx": 22,
+        "alt": "create of update a payment rate"
       },
       {
-        "idx":23,
-        "alt":"click's redirection log"
+        "idx": 23,
+        "alt": "click's redirection log"
       }
     ],
-    "similar":["teaser-cc","thor-cpa","akula-pera","actual-news"]
+    "similar": ["teaser-cc", "thor-cpa", "akula-pera", "actual-news"]
   },
   {
-    "id":"thor-cpa",
-    "name":"Thor CPA",
-    "summary":"Cost-per-action advertisement platform.",
-    "detail":[
+    "id": "thor-cpa",
+    "name": "Thor CPA",
+    "summary": "Cost-per-action advertisement platform.",
+    "detail": [
       "Written in PHP with Yii Framework v1.1. Frontend built with jQuery and jQueryUI plugins.",
       "The application functionality is traffic redirection between webmaster and advertiser websites. When visiting user makes an order on advertiser's website, webmaster gets paid."
     ],
-    "year":2012,
-    "produced":1341100800,
-    "tags":["js","jquery","php","yii","mysql"],
-    "images":[
+    "year": 2012,
+    "produced": 1341100800,
+    "tags": ["js", "jquery", "php", "yii", "mysql"],
+    "images": [
       {
-        "idx":1,
-        "alt":"site index"
+        "idx": 1,
+        "alt": "site index"
       },
       {
-        "idx":2,
-        "alt":"administrator dashboard"
+        "idx": 2,
+        "alt": "administrator dashboard"
       },
       {
-        "idx":3,
-        "alt":"traffic source sites"
+        "idx": 3,
+        "alt": "traffic source sites"
       },
       {
-        "idx":4,
-        "alt":"create or update a traffic source site"
+        "idx": 4,
+        "alt": "create or update a traffic source site"
       },
       {
-        "idx":5,
-        "alt":"advertiser's offers"
+        "idx": 5,
+        "alt": "advertiser's offers"
       },
       {
-        "idx":6,
-        "alt":"create or update an offer"
+        "idx": 6,
+        "alt": "create or update an offer"
       },
       {
-        "idx":7,
-        "alt":"offer's actions"
+        "idx": 7,
+        "alt": "offer's actions"
       },
       {
-        "idx":8,
-        "alt":"create or update offer's action"
+        "idx": 8,
+        "alt": "create or update offer's action"
       },
       {
-        "idx":9,
-        "alt":"update offer's geo targeting"
+        "idx": 9,
+        "alt": "update offer's geo targeting"
       },
       {
-        "idx":10,
-        "alt":"site statistics by date"
+        "idx": 10,
+        "alt": "site statistics by date"
       },
       {
-        "idx":11,
-        "alt":"site statistics by sites"
+        "idx": 11,
+        "alt": "site statistics by sites"
       },
       {
-        "idx":12,
-        "alt":"site statistics by offers"
+        "idx": 12,
+        "alt": "site statistics by offers"
       },
       {
-        "idx":13,
-        "alt":"site statistics by advertiser"
+        "idx": 13,
+        "alt": "site statistics by advertiser"
       },
       {
-        "idx":14,
-        "alt":"order's list"
+        "idx": 14,
+        "alt": "order's list"
       },
       {
-        "idx":15,
-        "alt":"update an order"
+        "idx": 15,
+        "alt": "update an order"
       },
       {
-        "idx":16,
-        "alt":"finance transactions log"
+        "idx": 16,
+        "alt": "finance transactions log"
       },
       {
-        "idx":17,
-        "alt":"advertiser's expenses log"
+        "idx": 17,
+        "alt": "advertiser's expenses log"
       },
       {
-        "idx":18,
-        "alt":"webmaster's earnings log"
+        "idx": 18,
+        "alt": "webmaster's earnings log"
       },
       {
-        "idx":19,
-        "alt":"user's management"
+        "idx": 19,
+        "alt": "user's management"
       },
       {
-        "idx":20,
-        "alt":"create or update an user"
+        "idx": 20,
+        "alt": "create or update an user"
       },
       {
-        "idx":21,
-        "alt":"offer's list"
+        "idx": 21,
+        "alt": "offer's list"
       },
       {
-        "idx":22,
-        "alt":"current user's offers"
+        "idx": 22,
+        "alt": "current user's offers"
       },
       {
-        "idx":23,
-        "alt":"offer and traffic source connection's list"
+        "idx": 23,
+        "alt": "offer and traffic source connection's list"
       },
       {
-        "idx":24,
-        "alt":"offer and traffic source connection config"
+        "idx": 24,
+        "alt": "offer and traffic source connection config"
       }
     ],
-    "similar":["teaser-cc","teaser-goods","akula-pera","actual-news"]
+    "similar": ["teaser-cc", "teaser-goods", "akula-pera", "actual-news"]
   },
   {
-    "id":"videobil",
-    "name":"VideoBil",
-    "summary":"Bulletin board system focused on video ads.",
-    "detail":[
+    "id": "videobil",
+    "name": "VideoBil",
+    "summary": "Bulletin board system focused on video ads.",
+    "detail": [
       "Off-work experimental project.",
       "Written in PHP with Yii Framework v1.1; Twitter Bootstrap and jQuery on frontend. Website design by myself.",
       "This project featured special video encoding server used to convert uploaded video files to required format."
     ],
-    "year":2012,
-    "produced":1343779200,
-    "tags":["html+css","js","jquery","php","yii","mysql"],
-    "images":[
+    "year": 2012,
+    "produced": 1343779200,
+    "tags": ["html+css", "js", "jquery", "php", "yii", "mysql"],
+    "images": [
       {
-        "idx":1,
-        "alt":"site index"
+        "idx": 1,
+        "alt": "site index"
       },
       {
-        "idx":2,
-        "alt":"video clip's list"
+        "idx": 2,
+        "alt": "video clip's list"
       },
       {
-        "idx":3,
-        "alt":"single video clip"
+        "idx": 3,
+        "alt": "single video clip"
       },
       {
-        "idx":4,
-        "alt":"car video ads"
+        "idx": 4,
+        "alt": "car video ads"
       },
       {
-        "idx":5,
-        "alt":"single car video ad"
+        "idx": 5,
+        "alt": "single car video ad"
       },
       {
-        "idx":6,
-        "alt":"current user's ads"
+        "idx": 6,
+        "alt": "current user's ads"
       },
       {
-        "idx":7,
-        "alt":"create or update an ad: common tab"
+        "idx": 7,
+        "alt": "create or update an ad: common tab"
       },
       {
-        "idx":8,
-        "alt":"create or update an ad: contact info tab"
+        "idx": 8,
+        "alt": "create or update an ad: contact info tab"
       },
       {
-        "idx":9,
-        "alt":"create or update an ad: picture tab"
+        "idx": 9,
+        "alt": "create or update an ad: picture tab"
       },
       {
-        "idx":10,
-        "alt":"create or update an ad: video tab"
+        "idx": 10,
+        "alt": "create or update an ad: video tab"
       },
       {
-        "idx":11,
-        "alt":"administrator interface: clips management"
+        "idx": 11,
+        "alt": "administrator interface: clips management"
       },
       {
-        "idx":12,
-        "alt":"administrator interface: update a clip"
+        "idx": 12,
+        "alt": "administrator interface: update a clip"
       },
       {
-        "idx":13,
-        "alt":"administrator interface: ads management"
+        "idx": 13,
+        "alt": "administrator interface: ads management"
       },
       {
-        "idx":14,
-        "alt":"administrator interface: update an ad"
+        "idx": 14,
+        "alt": "administrator interface: update an ad"
       },
       {
-        "idx":15,
-        "alt":"administrator interface: finance transactions"
+        "idx": 15,
+        "alt": "administrator interface: finance transactions"
       },
       {
-        "idx":16,
-        "alt":"administrator interface: car brand management"
+        "idx": 16,
+        "alt": "administrator interface: car brand management"
       },
       {
-        "idx":17,
-        "alt":"administrator interface: car model management"
+        "idx": 17,
+        "alt": "administrator interface: car model management"
       },
       {
-        "idx":18,
-        "alt":"administrator interface: car parts management"
+        "idx": 18,
+        "alt": "administrator interface: car parts management"
       },
       {
-        "idx":19,
-        "alt":"administrator interface: tire brand management"
+        "idx": 19,
+        "alt": "administrator interface: tire brand management"
       },
       {
-        "idx":20,
-        "alt":"administrator interface: wheel brand management"
+        "idx": 20,
+        "alt": "administrator interface: wheel brand management"
       },
       {
-        "idx":21,
-        "alt":"administrator interface: wheel model management"
+        "idx": 21,
+        "alt": "administrator interface: wheel model management"
       },
       {
-        "idx":22,
-        "alt":"tag's management"
+        "idx": 22,
+        "alt": "tag's management"
       }
     ],
-    "similar":["sibuslugi","quicklance","retail","activedns"]
+    "similar": ["sibuslugi", "quicklance", "retail", "activedns"]
   },
   {
-    "id":"activedns",
-    "name":"ActiveDNS",
-    "summary":"Domain name server hosting service.",
-    "detail":[
+    "id": "activedns",
+    "name": "ActiveDNS",
+    "summary": "Domain name server hosting service.",
+    "detail": [
       "The service purposed to help users who has domains delegated from more than one registrar to manage it more effectively.",
       "Written in PHP with Yii Framework v1.1 and many of Bash scripts. It's original design based on Twitter Bootstrap CSS framework.",
       "Under the hood it's worked on NSD (NLnet Labs Name Server Daemon) - very simple and lightning fast domain name server with in-memory resource records storage. NSD nodes was controlled over secured shell connection. Replication time never exceed a few minutes for thousands of hosted domains.",
       "Project development was started in 2011, released in 2012 and worked until the fall of 2017."
     ],
-    "year":2012,
-    "produced":1325376000,
-    "tags":["html+css","js","jquery","php","yii","mysql"],
-    "images":[
+    "year": 2012,
+    "produced": 1325376000,
+    "tags": ["html+css", "js", "jquery", "php", "yii", "mysql"],
+    "images": [
       {
-        "idx":1,
-        "alt":"site index"
+        "idx": 1,
+        "alt": "site index"
       },
       {
-        "idx":2,
-        "alt":"account's pricing plans"
+        "idx": 2,
+        "alt": "account's pricing plans"
       },
       {
-        "idx":3,
-        "alt":"end user agreemenet"
+        "idx": 3,
+        "alt": "end user agreemenet"
       },
       {
-        "idx":4,
-        "alt":"customer dashboard"
+        "idx": 4,
+        "alt": "customer dashboard"
       },
       {
-        "idx":5,
-        "alt":"hosted domain's list"
+        "idx": 5,
+        "alt": "hosted domain's list"
       },
       {
-        "idx":6,
-        "alt":"domain resource record configuration"
+        "idx": 6,
+        "alt": "domain resource record configuration"
       },
       {
-        "idx":7,
-        "alt":"domain's diagnostics"
+        "idx": 7,
+        "alt": "domain's diagnostics"
       },
       {
-        "idx":8,
-        "alt":"add new domains"
+        "idx": 8,
+        "alt": "add new domains"
       },
       {
-        "idx":9,
-        "alt":"latest events"
+        "idx": 9,
+        "alt": "latest events"
       },
       {
-        "idx":10,
-        "alt":"resource record templates"
+        "idx": 10,
+        "alt": "resource record templates"
       },
       {
-        "idx":11,
-        "alt":"resource record template configuration"
+        "idx": 11,
+        "alt": "resource record template configuration"
       },
       {
-        "idx":12,
-        "alt":"customer support tickets"
+        "idx": 12,
+        "alt": "customer support tickets"
       },
       {
-        "idx":13,
-        "alt":"closed support ticket"
+        "idx": 13,
+        "alt": "closed support ticket"
       },
       {
-        "idx":14,
-        "alt":"hosting news management"
+        "idx": 14,
+        "alt": "hosting news management"
       },
       {
-        "idx":15,
-        "alt":"create or update a news record"
+        "idx": 15,
+        "alt": "create or update a news record"
       },
       {
-        "idx":16,
-        "alt":"user's management"
+        "idx": 16,
+        "alt": "user's management"
       },
       {
-        "idx":17,
-        "alt":"create or update an user"
+        "idx": 17,
+        "alt": "create or update an user"
       },
       {
-        "idx":18,
-        "alt":"website common configuration"
+        "idx": 18,
+        "alt": "website common configuration"
       },
       {
-        "idx":19,
-        "alt":"nameserver's management"
+        "idx": 19,
+        "alt": "nameserver's management"
       },
       {
-        "idx":20,
-        "alt":"create or update a nameserver"
+        "idx": 20,
+        "alt": "create or update a nameserver"
       },
       {
-        "idx":21,
-        "alt":"pricing plan's management"
+        "idx": 21,
+        "alt": "pricing plan's management"
       },
       {
-        "idx":22,
-        "alt":"create or update a pricing plan"
+        "idx": 22,
+        "alt": "create or update a pricing plan"
       },
       {
-        "idx":23,
-        "alt":"account's billing and removal options"
+        "idx": 23,
+        "alt": "account's billing and removal options"
       },
       {
-        "idx":24,
-        "alt":"account's profile"
+        "idx": 24,
+        "alt": "account's profile"
       },
       {
-        "idx":25,
-        "alt":"nameservers and it's alias configuration"
+        "idx": 25,
+        "alt": "nameservers and it's alias configuration"
       }
     ],
-    "similar":["president-sovet","viraworks","alert-center","oauth"],
-    "git":"https://github.com/evc54/activedns"
+    "similar": ["president-sovet", "viraworks", "alert-center", "oauth"],
+    "git": "https://github.com/evc54/activedns"
   },
   {
-    "id":"artstyle",
-    "name":"ArtStyle Group",
-    "summary":"Promo website of internet design and marketing studio company.",
-    "detail":[
+    "id": "artstyle",
+    "name": "ArtStyle Group",
+    "summary": "Promo website of internet design and marketing studio company.",
+    "detail": [
       "Website was redesigned and then reworked from scratch.",
       "Written in PHP with Yii Framework v1.1. Twitter Bootstrap and jQuery on frontend. Featured prototype of visual page editor (unfortunately there is no way to present editor in screenshots - it's too old and fail to execute in a modern browsers)."
     ],
-    "year":2012,
-    "produced":1351728000,
-    "tags":["js","jquery","php","yii","mysql"],
-    "images":[
+    "year": 2012,
+    "produced": 1351728000,
+    "tags": ["js", "jquery", "php", "yii", "mysql"],
+    "images": [
       {
-        "idx":1,
-        "alt":"site index"
+        "idx": 1,
+        "alt": "site index"
       },
       {
-        "idx":2,
-        "alt":"one of implemented projects"
+        "idx": 2,
+        "alt": "one of implemented projects"
       },
       {
-        "idx":3,
-        "alt":"content management index"
+        "idx": 3,
+        "alt": "content management index"
       },
       {
-        "idx":4,
-        "alt":"visual site map"
+        "idx": 4,
+        "alt": "visual site map"
       },
       {
-        "idx":5,
-        "alt":"page settings"
+        "idx": 5,
+        "alt": "page settings"
       },
       {
-        "idx":6,
-        "alt":"page settings: content"
+        "idx": 6,
+        "alt": "page settings: content"
       },
       {
-        "idx":7,
-        "alt":"page settings: seo"
+        "idx": 7,
+        "alt": "page settings: seo"
       }
     ],
-    "similar":["ya-roditel","rtrn","nedopusti","step-tuning"]
+    "similar": ["ya-roditel", "rtrn", "nedopusti", "step-tuning"]
   },
   {
-    "id":"bogoslovo",
-    "name":"Bogoslovo",
-    "summary":"Production company website.",
-    "detail":[
-      "Written in PHP with Yii Framework v1.1. jQuery on frontend."
-    ],
-    "year":2012,
-    "produced":1352937600,
-    "tags":["html+css","js","jquery","php","mysql"],
-    "images":[
+    "id": "bogoslovo",
+    "name": "Bogoslovo",
+    "summary": "Production company website.",
+    "detail": ["Written in PHP with Yii Framework v1.1. jQuery on frontend."],
+    "year": 2012,
+    "produced": 1352937600,
+    "tags": ["html+css", "js", "jquery", "php", "mysql"],
+    "images": [
       {
-        "idx":1,
-        "alt":"site index"
+        "idx": 1,
+        "alt": "site index"
       },
       {
-        "idx":2,
-        "alt":"administrative area"
+        "idx": 2,
+        "alt": "administrative area"
       },
       {
-        "idx":3,
-        "alt":"product update"
+        "idx": 3,
+        "alt": "product update"
       }
     ],
-    "similar":["deti-v-runete","doctor-lee","masha-li-tour","moscow-audio-show"]
+    "similar": [
+      "deti-v-runete",
+      "doctor-lee",
+      "masha-li-tour",
+      "moscow-audio-show"
+    ]
   },
   {
-    "id":"deti-v-runete",
-    "name":"Deti v Runete",
-    "summary":"Promo website of internet security problems for children.",
-    "detail":[
+    "id": "deti-v-runete",
+    "name": "Deti v Runete",
+    "summary": "Promo website of internet security problems for children.",
+    "detail": [
       "Rewritten in PHP from static HTML pages with basic content management (like news, partner banners, etc)."
     ],
-    "year":2012,
-    "produced":1352937600,
-    "tags":["html+css","js","jquery","php","mysql"],
-    "images":[
+    "year": 2012,
+    "produced": 1352937600,
+    "tags": ["html+css", "js", "jquery", "php", "mysql"],
+    "images": [
       {
-        "idx":1,
-        "alt":"site index"
+        "idx": 1,
+        "alt": "site index"
       }
     ],
-    "similar":["bogoslovo","meule","aes-16","rolex-cup-regatta"]
+    "similar": ["bogoslovo", "meule", "aes-16", "rolex-cup-regatta"]
   },
   {
-    "id":"doctor-lee",
-    "name":"Doctor Lee",
-    "summary":"Traditional Chinese therapy medical tours company website.",
-    "detail":[
+    "id": "doctor-lee",
+    "name": "Doctor Lee",
+    "summary": "Traditional Chinese therapy medical tours company website.",
+    "detail": [
       "One of the first websites made within an ArtStyle 'site pipeline' with 24h per site deadline."
     ],
-    "year":2012,
-    "produced":1354233600,
-    "tags":["html+css","js","jquery","php","mysql"],
-    "images":[
+    "year": 2012,
+    "produced": 1354233600,
+    "tags": ["html+css", "js", "jquery", "php", "mysql"],
+    "images": [
       {
-        "idx":1,
-        "alt":"site index"
+        "idx": 1,
+        "alt": "site index"
       }
     ],
-    "similar":["ya-roditel","masha-li-tour","deti-v-runete","artstyle"]
+    "similar": ["ya-roditel", "masha-li-tour", "deti-v-runete", "artstyle"]
   },
   {
-    "id":"sibuslugi",
-    "name":"Sibuslugi",
-    "summary":"Freelance jobs website for handworkers.",
-    "detail":[
+    "id": "sibuslugi",
+    "name": "Sibuslugi",
+    "summary": "Freelance jobs website for handworkers.",
+    "detail": [
       "My own original design. Written in PHP with Yii Framework v1.1.",
       "Designed as a collaboration platform for handworkers and their clients under website owner company's supervising."
     ],
-    "year":2012,
-    "produced":1354320000,
-    "tags":["html+css","js","jquery","php","yii","mysql"],
-    "images":[
+    "year": 2012,
+    "produced": 1354320000,
+    "tags": ["html+css", "js", "jquery", "php", "yii", "mysql"],
+    "images": [
       {
-        "idx":1,
-        "alt":"site index"
+        "idx": 1,
+        "alt": "site index"
       },
       {
-        "idx":2,
-        "alt":"worker request form"
+        "idx": 2,
+        "alt": "worker request form"
       },
       {
-        "idx":3,
-        "alt":"new user sign up variants"
+        "idx": 3,
+        "alt": "new user sign up variants"
       }
     ],
-    "similar":["quicklance","retail","activedns","videobil"]
+    "similar": ["quicklance", "retail", "activedns", "videobil"]
   },
   {
-    "id":"step-tuning",
-    "name":"Step Tuning",
-    "summary":"Car tuning online shopping cart.",
-    "detail":[
+    "id": "step-tuning",
+    "name": "Step Tuning",
+    "summary": "Car tuning online shopping cart.",
+    "detail": [
       "Very first website from the series of online shop sites made in ArtStyle. Totally produced more than 20 of such websites."
     ],
-    "year":2012,
-    "produced":1355529600,
-    "tags":["html+css","js","jquery","php","yii","mysql"],
-    "images":[
+    "year": 2012,
+    "produced": 1355529600,
+    "tags": ["html+css", "js", "jquery", "php", "yii", "mysql"],
+    "images": [
       {
-        "idx":1,
-        "alt":"site index"
+        "idx": 1,
+        "alt": "site index"
       },
       {
-        "idx":2,
-        "alt":"products category"
+        "idx": 2,
+        "alt": "products category"
       },
       {
-        "idx":3,
-        "alt":"single product"
+        "idx": 3,
+        "alt": "single product"
       },
       {
-        "idx":4,
-        "alt":"shopping cart"
+        "idx": 4,
+        "alt": "shopping cart"
       },
       {
-        "idx":5,
-        "alt":"order form"
+        "idx": 5,
+        "alt": "order form"
       }
     ],
-    "similar":["vertigo","rtrn-map","quicklance","internet-foundation"]
+    "similar": ["vertigo", "rtrn-map", "quicklance", "internet-foundation"]
   },
   {
-    "id":"ya-roditel",
-    "name":"Parenthood Portal",
-    "summary":"Internet support portal for parents.",
-    "detail":[
+    "id": "ya-roditel",
+    "name": "Parenthood Portal",
+    "summary": "Internet support portal for parents.",
+    "detail": [
       "Website redesign project. Not implemeted in production, but still looks perfect."
     ],
-    "year":2012,
-    "produced":1355529601,
-    "tags":["html+css"],
-    "images":[
+    "year": 2012,
+    "produced": 1355529601,
+    "tags": ["html+css"],
+    "images": [
       {
-        "idx":1,
-        "alt":"site index"
+        "idx": 1,
+        "alt": "site index"
       }
     ],
-    "similar":["rtrn","democrator","viracms","alert-center"]
+    "similar": ["rtrn", "democrator", "viracms", "alert-center"]
   },
   {
-    "id":"democrator",
-    "name":"Democrator",
-    "summary":"Web application for problem solving in a democracy way.",
-    "detail":[
+    "id": "democrator",
+    "name": "Democrator",
+    "summary": "Web application for problem solving in a democracy way.",
+    "detail": [
       "The weirdest project in my career. Former website developer ran away with all the code and database, but he doesn't shut the site down. Customer asked to make a copy of data, so I had to invent special crawler to extract it.",
       "Implemented platform seemed very handy, so I reused it later as a template for the similar websites."
     ],
-    "year":2013,
-    "produced":1364774400,
-    "tags":["html+css","js","jquery","php","yii","mysql"],
-    "images":[
+    "year": 2013,
+    "produced": 1364774400,
+    "tags": ["html+css", "js", "jquery", "php", "yii", "mysql"],
+    "images": [
       {
-        "idx":1,
-        "alt":"site index"
+        "idx": 1,
+        "alt": "site index"
       },
       {
-        "idx":2,
-        "alt":"single problem and duscussion on it"
+        "idx": 2,
+        "alt": "single problem and duscussion on it"
       },
       {
-        "idx":3,
-        "alt":"site administrator's dashboard"
+        "idx": 3,
+        "alt": "site administrator's dashboard"
       },
       {
-        "idx":4,
-        "alt":"problem's list"
+        "idx": 4,
+        "alt": "problem's list"
       },
       {
-        "idx":5,
-        "alt":"problem management"
+        "idx": 5,
+        "alt": "problem management"
       },
       {
-        "idx":6,
-        "alt":"problem management: places tab"
+        "idx": 6,
+        "alt": "problem management: places tab"
       },
       {
-        "idx":7,
-        "alt":"problem management: comments tab"
+        "idx": 7,
+        "alt": "problem management: comments tab"
       },
       {
-        "idx":8,
-        "alt":"problem management: likes tab"
+        "idx": 8,
+        "alt": "problem management: likes tab"
       },
       {
-        "idx":9,
-        "alt":"problem management: subscribers tab"
+        "idx": 9,
+        "alt": "problem management: subscribers tab"
       }
     ],
-    "similar":["president-sovet","alert-center","nedopusti","deti-v-runete"]
+    "similar": ["president-sovet", "alert-center", "nedopusti", "deti-v-runete"]
   },
   {
-    "id":"masha-li-tour",
-    "name":"Masha Li Tour",
-    "summary":"Chinese touristic company website.",
-    "detail":[
-      "Written in PHP with Yii Framework v1.1, jQuery on frontend."
-    ],
-    "year":2013,
-    "produced":1367366400,
-    "tags":["html+css","js","jquery","php","yii","mysql"],
-    "images":[
+    "id": "masha-li-tour",
+    "name": "Masha Li Tour",
+    "summary": "Chinese touristic company website.",
+    "detail": ["Written in PHP with Yii Framework v1.1, jQuery on frontend."],
+    "year": 2013,
+    "produced": 1367366400,
+    "tags": ["html+css", "js", "jquery", "php", "yii", "mysql"],
+    "images": [
       {
-        "idx":1,
-        "alt":"site index"
+        "idx": 1,
+        "alt": "site index"
       }
     ],
-    "similar":["artstyle","doctor-lee","vertigo","step-tuning"]
+    "similar": ["artstyle", "doctor-lee", "vertigo", "step-tuning"]
   },
   {
-    "id":"meule",
-    "name":"Meule",
-    "summary":"Production company website.",
-    "detail":[
-      "Written in PHP with Yii Framework v1.1, jQuery on frontend."
-    ],
-    "year":2013,
-    "produced":1368576000,
-    "tags":["html+css","js","jquery","php","yii","mysql"],
-    "images":[
+    "id": "meule",
+    "name": "Meule",
+    "summary": "Production company website.",
+    "detail": ["Written in PHP with Yii Framework v1.1, jQuery on frontend."],
+    "year": 2013,
+    "produced": 1368576000,
+    "tags": ["html+css", "js", "jquery", "php", "yii", "mysql"],
+    "images": [
       {
-        "idx":1,
-        "alt":"site index"
+        "idx": 1,
+        "alt": "site index"
       }
     ],
-    "similar":["artstyle","bogoslovo","doctor-lee","moscow-audio-show"]
+    "similar": ["artstyle", "bogoslovo", "doctor-lee", "moscow-audio-show"]
   },
   {
-    "id":"moscow-audio-show",
-    "name":"Moscow Audio Show",
-    "summary":"Exhibition promo website.",
-    "detail":[
-      "Written in PHP with Yii Framework v1.1, jQuery on frontend."
-    ],
-    "year":2013,
-    "produced":1368576001,
-    "tags":["html+css","js","jquery","php","yii","mysql"],
-    "images":[
+    "id": "moscow-audio-show",
+    "name": "Moscow Audio Show",
+    "summary": "Exhibition promo website.",
+    "detail": ["Written in PHP with Yii Framework v1.1, jQuery on frontend."],
+    "year": 2013,
+    "produced": 1368576001,
+    "tags": ["html+css", "js", "jquery", "php", "yii", "mysql"],
+    "images": [
       {
-        "idx":1,
-        "alt":"site index"
+        "idx": 1,
+        "alt": "site index"
       },
       {
-        "idx":2,
-        "alt":"exhibition place on google map"
+        "idx": 2,
+        "alt": "exhibition place on google map"
       },
       {
-        "idx":3,
-        "alt":"photo gallery"
+        "idx": 3,
+        "alt": "photo gallery"
       }
     ],
-    "similar":["artstyle","aes-16","rolex-cup-regatta","deputy-school"]
+    "similar": ["artstyle", "aes-16", "rolex-cup-regatta", "deputy-school"]
   },
   {
-    "id":"rolex-cup-regatta",
-    "name":"Rolex Cup Regatta",
-    "summary":"Promo and blog website.",
-    "detail":[
-      "Written in PHP with Yii Framework v1.1, jQuery on frontend."
-    ],
-    "year":2013,
-    "produced":1368576002,
-    "tags":["html+css","js","jquery","php","yii","mysql"],
-    "images":[
+    "id": "rolex-cup-regatta",
+    "name": "Rolex Cup Regatta",
+    "summary": "Promo and blog website.",
+    "detail": ["Written in PHP with Yii Framework v1.1, jQuery on frontend."],
+    "year": 2013,
+    "produced": 1368576002,
+    "tags": ["html+css", "js", "jquery", "php", "yii", "mysql"],
+    "images": [
       {
-        "idx":1,
-        "alt":"site index"
+        "idx": 1,
+        "alt": "site index"
       },
       {
-        "idx":2,
-        "alt":"element interactivity"
+        "idx": 2,
+        "alt": "element interactivity"
       }
     ],
-    "similar":["artstyle","deputy-school","aes-16","moscow-audio-show"]
+    "similar": ["artstyle", "deputy-school", "aes-16", "moscow-audio-show"]
   },
   {
-    "id":"president-sovet",
-    "name":"President Sovet",
-    "summary":"President's council for human rights official website.",
-    "detail":[
+    "id": "president-sovet",
+    "name": "President Sovet",
+    "summary": "President's council for human rights official website.",
+    "detail": [
       "Written in PHP with Yii Framework v1.1, Twitter Bootstrap and jQuery on frontend. Huge and long term project. Many custom frontend scripts. Content management module was developed from scratch to make any part of website to be editable. Implemented over 100 different type pages in total."
     ],
-    "year":2013,
-    "produced":1372636800,
-    "tags":["html+css","js","jquery","php","yii","mysql"],
-    "images":[
+    "year": 2013,
+    "produced": 1372636800,
+    "tags": ["html+css", "js", "jquery", "php", "yii", "mysql"],
+    "images": [
       {
-        "idx":1,
-        "alt":"site index"
+        "idx": 1,
+        "alt": "site index"
       }
     ],
-    "similar":["artstyle","democrator","rtrn","rtrn-digital"],
-    "live":"http://president-sovet.ru"
+    "similar": ["artstyle", "democrator", "rtrn", "rtrn-digital"]
   },
   {
-    "id":"alert-center",
-    "name":"Alert Center",
-    "summary":"Distributed flash alert service focused on missing children.",
-    "detail":[
+    "id": "alert-center",
+    "name": "Alert Center",
+    "summary": "Distributed flash alert service focused on missing children.",
+    "detail": [
       "This project was inspired from upcoming work travel to the United States to visit National Centre for Missing and Exploited Children (NCMEC).",
       "An idea was using my former experience in teaser networks to make a platform to spread flash alerts about missing children exactly in the area they are lost.",
       "Written in PHP with Yii Framework v1.1, jQuery on frontend. Next I've took nginx as a web server and implemented delivery methods with LUA scripts; they're showed very high performance and minimal resource utilization.",
       "Website also featured an API to allow third party developers manage their own records.",
       "At first the project was called AlertService.ru then after being transferred to Vira Technologies company as one of portfolio projects it was renamed to Alert.Center. It's one of my favorites, by the way."
     ],
-    "year":2014,
-    "produced":1398902400,
-    "tags":["html+css","js","jquery","php","yii","mysql","lua"],
-    "images":[
+    "year": 2014,
+    "produced": 1398902400,
+    "tags": ["html+css", "js", "jquery", "php", "yii", "mysql", "lua"],
+    "images": [
       {
-        "idx":1,
-        "alt":"site index"
+        "idx": 1,
+        "alt": "site index"
       },
       {
-        "idx":2,
-        "alt":"static content"
+        "idx": 2,
+        "alt": "static content"
       },
       {
-        "idx":3,
-        "alt":"feedback form"
+        "idx": 3,
+        "alt": "feedback form"
       },
       {
-        "idx":4,
-        "alt":"user manual"
+        "idx": 4,
+        "alt": "user manual"
       },
       {
-        "idx":5,
-        "alt":"developer manual"
+        "idx": 5,
+        "alt": "developer manual"
       },
       {
-        "idx":6,
-        "alt":"administrator's dashboard"
+        "idx": 6,
+        "alt": "administrator's dashboard"
       },
       {
-        "idx":7,
-        "alt":"flash alert's list"
+        "idx": 7,
+        "alt": "flash alert's list"
       },
       {
-        "idx":8,
-        "alt":"create or update flash alert"
+        "idx": 8,
+        "alt": "create or update flash alert"
       },
       {
-        "idx":9,
-        "alt":"flash alert template's list"
+        "idx": 9,
+        "alt": "flash alert template's list"
       },
       {
-        "idx":10,
-        "alt":"create or update flash alert template"
+        "idx": 10,
+        "alt": "create or update flash alert template"
       }
     ],
-    "similar":["artstyle","deti-v-runete","nedopusti","ya-roditel"]
+    "similar": ["artstyle", "deti-v-runete", "nedopusti", "ya-roditel"]
   },
   {
-    "id":"retail",
-    "name":"Retail Company CRM",
-    "summary":"Retail company customer relationship management.",
-    "detail":[
+    "id": "retail",
+    "name": "Retail Company CRM",
+    "summary": "Retail company customer relationship management.",
+    "detail": [
       "Off-work project. It's required implementation of a retail company customer relation management system with assets management, sales automation, accounting and appropriate reports.",
       "Written in PHP with Yii Framework v1.1, jQuery with some of plugins on frontend."
     ],
-    "year":2014,
-    "produced":1401580800,
-    "tags":["html+css","js","jquery","php","yii","mysql"],
-    "images":[
+    "year": 2014,
+    "produced": 1401580800,
+    "tags": ["html+css", "js", "jquery", "php", "yii", "mysql"],
+    "images": [
       {
-        "idx":1,
-        "alt":"administrator's dashboard"
+        "idx": 1,
+        "alt": "administrator's dashboard"
       },
       {
-        "idx":2,
-        "alt":"store management"
+        "idx": 2,
+        "alt": "store management"
       },
       {
-        "idx":3,
-        "alt":"merchandise log"
+        "idx": 3,
+        "alt": "merchandise log"
       },
       {
-        "idx":4,
-        "alt":"merchandise log record details"
+        "idx": 4,
+        "alt": "merchandise log record details"
       },
       {
-        "idx":5,
-        "alt":"create inbound assets record"
+        "idx": 5,
+        "alt": "create inbound assets record"
       },
       {
-        "idx":6,
-        "alt":"warehouse management"
+        "idx": 6,
+        "alt": "warehouse management"
       },
       {
-        "idx":7,
-        "alt":"warehouse details"
+        "idx": 7,
+        "alt": "warehouse details"
       },
       {
-        "idx":8,
-        "alt":"create or update warehouse"
+        "idx": 8,
+        "alt": "create or update warehouse"
       },
       {
-        "idx":9,
-        "alt":"sales report"
+        "idx": 9,
+        "alt": "sales report"
       },
       {
-        "idx":10,
-        "alt":"asset management"
+        "idx": 10,
+        "alt": "asset management"
       },
       {
-        "idx":11,
-        "alt":"asset details"
+        "idx": 11,
+        "alt": "asset details"
       },
       {
-        "idx":12,
-        "alt":"create or update asset"
+        "idx": 12,
+        "alt": "create or update asset"
       },
       {
-        "idx":13,
-        "alt":"finance dashboard"
+        "idx": 13,
+        "alt": "finance dashboard"
       },
       {
-        "idx":14,
-        "alt":"cashflow log"
+        "idx": 14,
+        "alt": "cashflow log"
       },
       {
-        "idx":15,
-        "alt":"cashflow record details"
+        "idx": 15,
+        "alt": "cashflow record details"
       },
       {
-        "idx":16,
-        "alt":"create or update cashflow record"
+        "idx": 16,
+        "alt": "create or update cashflow record"
       },
       {
-        "idx":17,
-        "alt":"cash register management"
+        "idx": 17,
+        "alt": "cash register management"
       },
       {
-        "idx":18,
-        "alt":"cash register details"
+        "idx": 18,
+        "alt": "cash register details"
       },
       {
-        "idx":19,
-        "alt":"create or update cash register"
+        "idx": 19,
+        "alt": "create or update cash register"
       },
       {
-        "idx":20,
-        "alt":"profit report"
+        "idx": 20,
+        "alt": "profit report"
       },
       {
-        "idx":21,
-        "alt":"summary reports"
+        "idx": 21,
+        "alt": "summary reports"
       }
     ],
-    "similar":["sibuslugi","activedns","videobil","quicklance"]
+    "similar": ["sibuslugi", "activedns", "videobil", "quicklance"]
   },
   {
-    "id":"aes-16",
-    "name":"16th Session of AES",
-    "summary":"Association of European Senates extraordinary session promo website.",
-    "detail":[
+    "id": "aes-16",
+    "name": "16th Session of AES",
+    "summary": "Association of European Senates extraordinary session promo website.",
+    "detail": [
       "Written in PHP with Yii Framework v1.1, Twitter Bootstrap and jQuery on frontend.",
       "One of quickly built websites thanks to new content management system previously developed in President Sovet project. This one was featured multilanguage support."
     ],
-    "year":2014,
-    "produced":1394841600,
-    "tags":["html+css","js","jquery"],
-    "images":[
+    "year": 2014,
+    "produced": 1394841600,
+    "tags": ["html+css", "js", "jquery"],
+    "images": [
       {
-        "idx":1,
-        "alt":"site index"
+        "idx": 1,
+        "alt": "site index"
       }
     ],
-    "similar":["artstyle","moscow-audio-show","rtrn-digital","rolex-cup-regatta"]
+    "similar": [
+      "artstyle",
+      "moscow-audio-show",
+      "rtrn-digital",
+      "rolex-cup-regatta"
+    ]
   },
   {
-    "id":"rtrn",
-    "name":"RTRN",
-    "summary":"Russian Television and Radio Network internet portal.",
-    "detail":[
+    "id": "rtrn",
+    "name": "RTRN",
+    "summary": "Russian Television and Radio Network internet portal.",
+    "detail": [
       "Based on content management system featured in President Sovet project.",
       "Actually this project not only single one website, but 89 websites (by a number of russian regions) running on separate domains. It was necessary to implement a system to deploy all of 89 sites simultaneously.",
       "It was a long term project, took more than six month to complete."
     ],
-    "year":2014,
-    "produced":1401580800,
-    "tags":["html+css","js","jquery","php","yii","mysql"],
-    "images":[
+    "year": 2014,
+    "produced": 1401580800,
+    "tags": ["html+css", "js", "jquery", "php", "yii", "mysql"],
+    "images": [
       {
-        "idx":1,
-        "alt":"site index"
+        "idx": 1,
+        "alt": "site index"
       },
       {
-        "idx":2,
-        "alt":"regional site choose"
+        "idx": 2,
+        "alt": "regional site choose"
       },
       {
-        "idx":3,
-        "alt":"embedded broadcasting map"
+        "idx": 3,
+        "alt": "embedded broadcasting map"
       }
     ],
-    "similar":["artstyle","rtrn-map","president-sovet","democrator"]
+    "similar": ["artstyle", "rtrn-map", "president-sovet", "democrator"]
   },
   {
-    "id":"rtrn-map",
-    "name":"RTRN Broadcast Map",
-    "summary":"Russian Television and Radio Network broadcasting map.",
-    "detail":[
+    "id": "rtrn-map",
+    "name": "RTRN Broadcast Map",
+    "summary": "Russian Television and Radio Network broadcasting map.",
+    "detail": [
       "Written in PHP with Yii Framework v1.1, jQuery and a lot of custom logic scripts. This web application is very high complexity due to specific data stored inside like broadcast zone polygons or images; they are required to be precise positioned on the map and to be editable by website administrator.",
       "Website was provide support for Google and Yandex maps, so users could select their favorite. Google map was removed later since it terms of use has been changed."
     ],
-    "year":2014,
-    "produced":1409529600,
-    "tags":["html+css","js","jquery","php","yii","mysql"],
-    "images":[
+    "year": 2014,
+    "produced": 1409529600,
+    "tags": ["html+css", "js", "jquery", "php", "yii", "mysql"],
+    "images": [
       {
-        "idx":1,
-        "alt":"digital broadcast map mode"
+        "idx": 1,
+        "alt": "digital broadcast map mode"
       },
       {
-        "idx":2,
-        "alt":"broadcast frequency zone enabled mode"
+        "idx": 2,
+        "alt": "broadcast frequency zone enabled mode"
       },
       {
-        "idx":3,
-        "alt":"television equipment sale points mode"
+        "idx": 3,
+        "alt": "television equipment sale points mode"
       },
       {
-        "idx":4,
-        "alt":"television equipment service points mode"
+        "idx": 4,
+        "alt": "television equipment service points mode"
       },
       {
-        "idx":5,
-        "alt":"administrator's dashboard"
+        "idx": 5,
+        "alt": "administrator's dashboard"
       },
       {
-        "idx":6,
-        "alt":"broadcast node's management"
+        "idx": 6,
+        "alt": "broadcast node's management"
       },
       {
-        "idx":7,
-        "alt":"create or update a broadcast node"
+        "idx": 7,
+        "alt": "create or update a broadcast node"
       },
       {
-        "idx":8,
-        "alt":"broadcast node's geo position"
+        "idx": 8,
+        "alt": "broadcast node's geo position"
       },
       {
-        "idx":9,
-        "alt":"broadcast node's frequencies"
+        "idx": 9,
+        "alt": "broadcast node's frequencies"
       },
       {
-        "idx":10,
-        "alt":"broadcast zone's management"
+        "idx": 10,
+        "alt": "broadcast zone's management"
       },
       {
-        "idx":11,
-        "alt":"create or update a broadcast zone"
+        "idx": 11,
+        "alt": "create or update a broadcast zone"
       },
       {
-        "idx":12,
-        "alt":"broadcast transmitter's management"
+        "idx": 12,
+        "alt": "broadcast transmitter's management"
       },
       {
-        "idx":13,
-        "alt":"create or update a broadcast transmitter"
+        "idx": 13,
+        "alt": "create or update a broadcast transmitter"
       },
       {
-        "idx":14,
-        "alt":"equipment sale points management"
+        "idx": 14,
+        "alt": "equipment sale points management"
       },
       {
-        "idx":15,
-        "alt":"create or update an equipment sale point"
+        "idx": 15,
+        "alt": "create or update an equipment sale point"
       },
       {
-        "idx":16,
-        "alt":"create or update an equipment service point"
+        "idx": 16,
+        "alt": "create or update an equipment service point"
       },
       {
-        "idx":17,
-        "alt":"user's management"
+        "idx": 17,
+        "alt": "user's management"
       },
       {
-        "idx":18,
-        "alt":"create or update an user"
+        "idx": 18,
+        "alt": "create or update an user"
       },
       {
-        "idx":19,
-        "alt":"organization branch management"
+        "idx": 19,
+        "alt": "organization branch management"
       },
       {
-        "idx":20,
-        "alt":"create or update a branch"
+        "idx": 20,
+        "alt": "create or update a branch"
       },
       {
-        "idx":21,
-        "alt":"region's management"
+        "idx": 21,
+        "alt": "region's management"
       },
       {
-        "idx":22,
-        "alt":"create or update a region"
+        "idx": 22,
+        "alt": "create or update a region"
       },
       {
-        "idx":23,
-        "alt":"color's management"
+        "idx": 23,
+        "alt": "color's management"
       },
       {
-        "idx":24,
-        "alt":"website settings"
+        "idx": 24,
+        "alt": "website settings"
       }
     ],
-    "similar":["artstyle","rtrn","president-sovet","nedopusti"],
-    "live":"https://xn--80aa2azak.xn--p1aadc.xn--p1ai"
+    "similar": ["artstyle", "rtrn", "president-sovet", "nedopusti"]
   },
   {
-    "id":"vertigo",
-    "name":"Vertigo",
-    "summary":"Hi-fi audio equipment online shopping cart.",
-    "detail":[
-      "Another online shop website like Step Tuning project."
-    ],
-    "year":2015,
-    "produced":1422748800,
-    "tags":["html+css","js","jquery","php","yii","mysql"],
-    "images":[
+    "id": "vertigo",
+    "name": "Vertigo",
+    "summary": "Hi-fi audio equipment online shopping cart.",
+    "detail": ["Another online shop website like Step Tuning project."],
+    "year": 2015,
+    "produced": 1422748800,
+    "tags": ["html+css", "js", "jquery", "php", "yii", "mysql"],
+    "images": [
       {
-        "idx":1,
-        "alt":"site index"
+        "idx": 1,
+        "alt": "site index"
       }
     ],
-    "similar":["artstyle","step-tuning","doctor-lee","masha-li-tour"]
+    "similar": ["artstyle", "step-tuning", "doctor-lee", "masha-li-tour"]
   },
   {
-    "id":"nedopusti",
-    "name":"Nedopusti",
-    "summary":"Non-commercial organization website.",
-    "detail":[
+    "id": "nedopusti",
+    "name": "Nedopusti",
+    "summary": "Non-commercial organization website.",
+    "detail": [
       "Based on the same content management as President Sovet project.",
       "Website was purposed to provide information about missed children in Russia."
     ],
-    "year":2015,
-    "produced":1422748801,
-    "tags":["html+css","js","jquery","php","yii","mysql"],
-    "images":[
+    "year": 2015,
+    "produced": 1422748801,
+    "tags": ["html+css", "js", "jquery", "php", "yii", "mysql"],
+    "images": [
       {
-        "idx":1,
-        "alt":"site index"
+        "idx": 1,
+        "alt": "site index"
       },
       {
-        "idx":2,
-        "alt":"missing children database"
+        "idx": 2,
+        "alt": "missing children database"
       }
     ],
-    "similar":["artstyle","deti-v-runete","democrator","ya-roditel"]
+    "similar": ["artstyle", "deti-v-runete", "democrator", "ya-roditel"]
   },
   {
-    "id":"vira-tech",
-    "name":"Vira Technologies",
-    "summary":"Company presentation website.",
-    "detail":[
-      "No backend, no frontend (excluding starting animation)."
-    ],
-    "year":2015,
-    "produced":1425168000,
-    "tags":["html+css"],
-    "images":[
+    "id": "vira-tech",
+    "name": "Vira Technologies",
+    "summary": "Company presentation website.",
+    "detail": ["No backend, no frontend (excluding starting animation)."],
+    "year": 2015,
+    "produced": 1425168000,
+    "tags": ["html+css"],
+    "images": [
       {
-        "idx":1,
-        "alt":"site index"
+        "idx": 1,
+        "alt": "site index"
       }
     ],
-    "similar":["viracms","vira-sketch","deputy-school","aes-16"]
+    "similar": ["viracms", "vira-sketch", "deputy-school", "aes-16"]
   },
   {
-    "id":"deputy-school",
-    "name":"Deputy School",
-    "summary":"Promo website for public advanced training courses for deputy members.",
-    "detail":[
+    "id": "deputy-school",
+    "name": "Deputy School",
+    "summary": "Promo website for public advanced training courses for deputy members.",
+    "detail": [
       "Simple static pages website. HTML and CSS works. No backend, no interaction, no frontend."
     ],
-    "year":2015,
-    "produced":1435708800,
-    "tags":["html+css"],
-    "images":[
+    "year": 2015,
+    "produced": 1435708800,
+    "tags": ["html+css"],
+    "images": [
       {
-        "idx":1,
-        "alt":"index page"
+        "idx": 1,
+        "alt": "index page"
       },
       {
-        "idx":2,
-        "alt":"inner page type 1"
+        "idx": 2,
+        "alt": "inner page type 1"
       },
       {
-        "idx":3,
-        "alt":"inner page type 2"
+        "idx": 3,
+        "alt": "inner page type 2"
       },
       {
-        "idx":4,
-        "alt":"inner page type 3"
+        "idx": 4,
+        "alt": "inner page type 3"
       },
       {
-        "idx":5,
-        "alt":"inner page type 4"
+        "idx": 5,
+        "alt": "inner page type 4"
       },
       {
-        "idx":6,
-        "alt":"inner page type 5"
+        "idx": 6,
+        "alt": "inner page type 5"
       },
       {
-        "idx":7,
-        "alt":"inner page type 6"
+        "idx": 7,
+        "alt": "inner page type 6"
       }
     ],
-    "similar":["moscow-audio-show","ya-roditel","rolex-cup-regatta","onf-youth"]
+    "similar": [
+      "moscow-audio-show",
+      "ya-roditel",
+      "rolex-cup-regatta",
+      "onf-youth"
+    ]
   },
   {
-    "id":"rtrn-digital",
-    "name":"RTRN Digital TV",
-    "summary":"Digital broadcast TV promo and informational website.",
-    "detail":[
+    "id": "rtrn-digital",
+    "name": "RTRN Digital TV",
+    "summary": "Digital broadcast TV promo and informational website.",
+    "detail": [
       "Website integration with content management system like other RTRN web resources.",
       "Also added website version for mobile devices."
     ],
-    "year":2015,
-    "produced":1438387200,
-    "tags":["html+css","js","jquery","php","yii","mysql"],
-    "images":[
+    "year": 2015,
+    "produced": 1438387200,
+    "tags": ["html+css", "js", "jquery", "php", "yii", "mysql"],
+    "images": [
       {
-        "idx":1,
-        "alt":"site index page"
+        "idx": 1,
+        "alt": "site index page"
       },
       {
-        "idx":2,
-        "alt":"site inner page"
+        "idx": 2,
+        "alt": "site inner page"
       }
     ],
-    "similar":["artstyle","rtrn","rtrn-map","democrator"]
+    "similar": ["artstyle", "rtrn", "rtrn-map", "democrator"]
   },
   {
-    "id":"quicklance",
-    "name":"Quicklance",
-    "summary":"Freelance jobs aggregation website.",
-    "detail":[
+    "id": "quicklance",
+    "name": "Quicklance",
+    "summary": "Freelance jobs aggregation website.",
+    "detail": [
       "Off-work experimental project.",
       "Written in PHP. Implemented advanced website crawler to parse external freelance sites and give output in standardized format."
     ],
-    "year":2015,
-    "produced":1441065600,
-    "tags":["html+css","js","jquery","php","yii","mysql"],
-    "images":[
+    "year": 2015,
+    "produced": 1441065600,
+    "tags": ["html+css", "js", "jquery", "php", "yii", "mysql"],
+    "images": [
       {
-        "idx":1,
-        "alt":"site index"
+        "idx": 1,
+        "alt": "site index"
       },
       {
-        "idx":2,
-        "alt":"opened offer slider"
+        "idx": 2,
+        "alt": "opened offer slider"
       }
     ],
-    "similar":["activedns","sibuslugi","retail","viraworks"]
+    "similar": ["activedns", "sibuslugi", "retail", "viraworks"]
   },
   {
-    "id":"oauth",
-    "name":"OAuth2 Server",
-    "summary":"Open authentication v2 protocol server implementation.",
-    "detail":[
+    "id": "oauth",
+    "name": "OAuth2 Server",
+    "summary": "Open authentication v2 protocol server implementation.",
+    "detail": [
       "OAuth2 protocol server was provided user's single sign on point for non-commercial social movement 'For the Quality of Life' (not listed here).",
       "It's written from scratch in PHP with Yii Framework v2."
     ],
-    "year":2015,
-    "produced":1443657600,
-    "tags":["html+css","js","jquery","php","yii2","mysql"],
-    "images":[
+    "year": 2015,
+    "produced": 1443657600,
+    "tags": ["html+css", "js", "jquery", "php", "yii2", "mysql"],
+    "images": [
       {
-        "idx":1,
-        "alt":"authentication point"
+        "idx": 1,
+        "alt": "authentication point"
       },
       {
-        "idx":2,
-        "alt":"administrator's dashboard"
+        "idx": 2,
+        "alt": "administrator's dashboard"
       },
       {
-        "idx":3,
-        "alt":"user account's list"
+        "idx": 3,
+        "alt": "user account's list"
       },
       {
-        "idx":4,
-        "alt":"view user account"
+        "idx": 4,
+        "alt": "view user account"
       },
       {
-        "idx":5,
-        "alt":"update user account"
+        "idx": 5,
+        "alt": "update user account"
       },
       {
-        "idx":6,
-        "alt":"authorized application's list"
+        "idx": 6,
+        "alt": "authorized application's list"
       },
       {
-        "idx":7,
-        "alt":"view authorized application"
+        "idx": 7,
+        "alt": "view authorized application"
       },
       {
-        "idx":8,
-        "alt":"update authorized application's scopes"
+        "idx": 8,
+        "alt": "update authorized application's scopes"
       },
       {
-        "idx":9,
-        "alt":"application's authentication points"
+        "idx": 9,
+        "alt": "application's authentication points"
       },
       {
-        "idx":10,
-        "alt":"view application's authentication point"
+        "idx": 10,
+        "alt": "view application's authentication point"
       },
       {
-        "idx":11,
-        "alt":"update application's authentication point"
+        "idx": 11,
+        "alt": "update application's authentication point"
       },
       {
-        "idx":12,
-        "alt":"update authorized application"
+        "idx": 12,
+        "alt": "update authorized application"
       },
       {
-        "idx":13,
-        "alt":"user auth session's list"
+        "idx": 13,
+        "alt": "user auth session's list"
       },
       {
-        "idx":14,
-        "alt":"authentication code's list"
+        "idx": 14,
+        "alt": "authentication code's list"
       },
       {
-        "idx":15,
-        "alt":"access token's list"
+        "idx": 15,
+        "alt": "access token's list"
       },
       {
-        "idx":16,
-        "alt":"refresh token's list"
+        "idx": 16,
+        "alt": "refresh token's list"
       }
     ],
-    "similar":["social-liable-people","viraworks","viracms","pravoe-delo"]
+    "similar": ["social-liable-people", "viraworks", "viracms", "pravoe-delo"]
   },
   {
-    "id":"vira-sketch",
+    "id": "vira-sketch",
     "name": "Vira Sketch Book",
-    "summary":"Vira Sketch Book.",
-    "detail":[
-      "Functionality planned but never implemented."
-    ],
-    "year":2015,
-    "produced":1422748800,
-    "tags":["html+css","js","jquery","yii","mysql","viracms"],
-    "images":[
+    "summary": "Vira Sketch Book.",
+    "detail": ["Functionality planned but never implemented."],
+    "year": 2015,
+    "produced": 1422748800,
+    "tags": ["html+css", "js", "jquery", "yii", "mysql", "viracms"],
+    "images": [
       {
-        "idx":1,
-        "alt":"sketch #1"
+        "idx": 1,
+        "alt": "sketch #1"
       },
       {
-        "idx":2,
-        "alt":"sketch #2"
+        "idx": 2,
+        "alt": "sketch #2"
       },
       {
-        "idx":3,
-        "alt":"sketch #3"
+        "idx": 3,
+        "alt": "sketch #3"
       },
       {
-        "idx":4,
-        "alt":"sketch #4"
+        "idx": 4,
+        "alt": "sketch #4"
       },
       {
-        "idx":5,
-        "alt":"sketch #5"
+        "idx": 5,
+        "alt": "sketch #5"
       },
       {
-        "idx":6,
-        "alt":"sketch #6"
+        "idx": 6,
+        "alt": "sketch #6"
       },
       {
-        "idx":7,
-        "alt":"sketch #7"
+        "idx": 7,
+        "alt": "sketch #7"
       },
       {
-        "idx":8,
-        "alt":"sketch #8"
+        "idx": 8,
+        "alt": "sketch #8"
       },
       {
-        "idx":9,
-        "alt":"sketch #9"
+        "idx": 9,
+        "alt": "sketch #9"
       },
       {
-        "idx":10,
-        "alt":"sketch #10"
+        "idx": 10,
+        "alt": "sketch #10"
       },
       {
-        "idx":11,
-        "alt":"sketch #11"
+        "idx": 11,
+        "alt": "sketch #11"
       },
       {
-        "idx":12,
-        "alt":"sketch #12"
+        "idx": 12,
+        "alt": "sketch #12"
       },
       {
-        "idx":13,
-        "alt":"sketch #13"
+        "idx": 13,
+        "alt": "sketch #13"
       },
       {
-        "idx":14,
-        "alt":"sketch #14"
+        "idx": 14,
+        "alt": "sketch #14"
       },
       {
-        "idx":15,
-        "alt":"sketch #15"
+        "idx": 15,
+        "alt": "sketch #15"
       },
       {
-        "idx":16,
-        "alt":"sketch #16"
+        "idx": 16,
+        "alt": "sketch #16"
       },
       {
-        "idx":17,
-        "alt":"sketch #17"
+        "idx": 17,
+        "alt": "sketch #17"
       },
       {
-        "idx":18,
-        "alt":"sketch #18"
+        "idx": 18,
+        "alt": "sketch #18"
       },
       {
-        "idx":19,
-        "alt":"sketch #19"
+        "idx": 19,
+        "alt": "sketch #19"
       },
       {
-        "idx":20,
-        "alt":"sketch #20"
+        "idx": 20,
+        "alt": "sketch #20"
       },
       {
-        "idx":21,
-        "alt":"sketch #21"
+        "idx": 21,
+        "alt": "sketch #21"
       },
       {
-        "idx":22,
-        "alt":"sketch #22"
+        "idx": 22,
+        "alt": "sketch #22"
       },
       {
-        "idx":23,
-        "alt":"sketch #23"
+        "idx": 23,
+        "alt": "sketch #23"
       },
       {
-        "idx":24,
-        "alt":"sketch #24"
+        "idx": 24,
+        "alt": "sketch #24"
       },
       {
-        "idx":25,
-        "alt":"sketch #25"
+        "idx": 25,
+        "alt": "sketch #25"
       },
       {
-        "idx":26,
-        "alt":"sketch #26"
+        "idx": 26,
+        "alt": "sketch #26"
       },
       {
-        "idx":27,
-        "alt":"sketch #27"
+        "idx": 27,
+        "alt": "sketch #27"
       },
       {
-        "idx":28,
-        "alt":"sketch #28"
+        "idx": 28,
+        "alt": "sketch #28"
       },
       {
-        "idx":29,
-        "alt":"sketch #29"
+        "idx": 29,
+        "alt": "sketch #29"
       },
       {
-        "idx":30,
-        "alt":"sketch #30"
+        "idx": 30,
+        "alt": "sketch #30"
       },
       {
-        "idx":31,
-        "alt":"sketch #31"
+        "idx": 31,
+        "alt": "sketch #31"
       },
       {
-        "idx":32,
-        "alt":"sketch #32"
+        "idx": 32,
+        "alt": "sketch #32"
       },
       {
-        "idx":33,
-        "alt":"sketch #33"
+        "idx": 33,
+        "alt": "sketch #33"
       },
       {
-        "idx":34,
-        "alt":"sketch #34"
+        "idx": 34,
+        "alt": "sketch #34"
       },
       {
-        "idx":35,
-        "alt":"sketch #35"
+        "idx": 35,
+        "alt": "sketch #35"
       },
       {
-        "idx":36,
-        "alt":"sketch #36"
+        "idx": 36,
+        "alt": "sketch #36"
       },
       {
-        "idx":37,
-        "alt":"sketch #37"
+        "idx": 37,
+        "alt": "sketch #37"
       },
       {
-        "idx":38,
-        "alt":"sketch #38"
+        "idx": 38,
+        "alt": "sketch #38"
       },
       {
-        "idx":39,
-        "alt":"sketch #39"
+        "idx": 39,
+        "alt": "sketch #39"
       },
       {
-        "idx":40,
-        "alt":"sketch #40"
+        "idx": 40,
+        "alt": "sketch #40"
       },
       {
-        "idx":41,
-        "alt":"sketch #41"
+        "idx": 41,
+        "alt": "sketch #41"
       }
     ],
-    "similar":["viracms","viraworks","personal-site","kizilurt-district"]
+    "similar": ["viracms", "viraworks", "personal-site", "kizilurt-district"]
   },
   {
-    "id":"viracms",
+    "id": "viracms",
     "name": "ViraCMS",
-    "summary":"Vira Content Management System software.",
-    "detail":[
+    "summary": "Vira Content Management System software.",
+    "detail": [
       "The ViraCMS is a content management system software. It's written in PHP language, with Yii Framework and support all of it's features along with convenient management interface of administrators, static pages, images and other files.",
       "It have modular structure and can be used as a base for implementing very huge web applications."
     ],
-    "year":2015,
-    "produced":1422748800,
-    "tags":["html+css","js","jquery","yii","mysql","viracms"],
-    "images":[
+    "year": 2015,
+    "produced": 1422748800,
+    "tags": ["html+css", "js", "jquery", "yii", "mysql", "viracms"],
+    "images": [
       {
-        "idx":1,
-        "alt":"installation wizard #1"
+        "idx": 1,
+        "alt": "installation wizard #1"
       },
       {
-        "idx":2,
-        "alt":"installation wizard #2"
+        "idx": 2,
+        "alt": "installation wizard #2"
       },
       {
-        "idx":3,
-        "alt":"installation wizard #3"
+        "idx": 3,
+        "alt": "installation wizard #3"
       },
       {
-        "idx":4,
-        "alt":"installation wizard #4"
+        "idx": 4,
+        "alt": "installation wizard #4"
       },
       {
-        "idx":5,
-        "alt":"installation wizard #5"
+        "idx": 5,
+        "alt": "installation wizard #5"
       },
       {
-        "idx":6,
-        "alt":"installation wizard #6"
+        "idx": 6,
+        "alt": "installation wizard #6"
       },
       {
-        "idx":7,
-        "alt":"installation wizard #7"
+        "idx": 7,
+        "alt": "installation wizard #7"
       },
       {
-        "idx":8,
-        "alt":"installation wizard #8"
+        "idx": 8,
+        "alt": "installation wizard #8"
       },
       {
-        "idx":9,
-        "alt":"installation wizard #9"
+        "idx": 9,
+        "alt": "installation wizard #9"
       },
       {
-        "idx":10,
-        "alt":"site index"
+        "idx": 10,
+        "alt": "site index"
       },
       {
-        "idx":11,
-        "alt":"site inner page"
+        "idx": 11,
+        "alt": "site inner page"
       },
       {
-        "idx":12,
-        "alt":"administrative area entrance"
+        "idx": 12,
+        "alt": "administrative area entrance"
       },
       {
-        "idx":13,
-        "alt":"administrator's dashboard"
+        "idx": 13,
+        "alt": "administrator's dashboard"
       },
       {
-        "idx":14,
-        "alt":"interactive site map"
+        "idx": 14,
+        "alt": "interactive site map"
       },
       {
-        "idx":15,
-        "alt":"site page's list"
+        "idx": 15,
+        "alt": "site page's list"
       },
       {
-        "idx":16,
-        "alt":"uploaded image's management"
+        "idx": 16,
+        "alt": "uploaded image's management"
       },
       {
-        "idx":17,
-        "alt":"cache management"
+        "idx": 17,
+        "alt": "cache management"
       },
       {
-        "idx":18,
-        "alt":"viracms navigation"
+        "idx": 18,
+        "alt": "viracms navigation"
       },
       {
-        "idx":19,
-        "alt":"blog module"
+        "idx": 19,
+        "alt": "blog module"
       },
       {
-        "idx":20,
-        "alt":"view blog post"
+        "idx": 20,
+        "alt": "view blog post"
       },
       {
-        "idx":21,
-        "alt":"create or update a blog post"
+        "idx": 21,
+        "alt": "create or update a blog post"
       },
       {
-        "idx":22,
-        "alt":"custom navigation menu"
+        "idx": 22,
+        "alt": "custom navigation menu"
       },
       {
-        "idx":23,
-        "alt":"update a layout: rows mode"
+        "idx": 23,
+        "alt": "update a layout: rows mode"
       },
       {
-        "idx":24,
-        "alt":"update a layout: blocks mode"
+        "idx": 24,
+        "alt": "update a layout: blocks mode"
       },
       {
-        "idx":25,
-        "alt":"update a layout: content editing mode"
+        "idx": 25,
+        "alt": "update a layout: content editing mode"
       },
       {
-        "idx":26,
-        "alt":"layout configuration"
+        "idx": 26,
+        "alt": "layout configuration"
       },
       {
-        "idx":27,
-        "alt":"site settings"
+        "idx": 27,
+        "alt": "site settings"
       },
       {
-        "idx":28,
-        "alt":"application settings"
+        "idx": 28,
+        "alt": "application settings"
       },
       {
-        "idx":29,
-        "alt":"update a page content"
+        "idx": 29,
+        "alt": "update a page content"
       },
       {
-        "idx":30,
-        "alt":"cache configuration"
+        "idx": 30,
+        "alt": "cache configuration"
       },
       {
-        "idx":31,
-        "alt":"authentication log"
+        "idx": 31,
+        "alt": "authentication log"
       },
       {
-        "idx":32,
-        "alt":"event log"
+        "idx": 32,
+        "alt": "event log"
       },
       {
-        "idx":33,
-        "alt":"language settings"
+        "idx": 33,
+        "alt": "language settings"
       },
       {
-        "idx":34,
-        "alt":"site's list"
+        "idx": 34,
+        "alt": "site's list"
       },
       {
-        "idx":35,
-        "alt":"viracms.com - english version"
+        "idx": 35,
+        "alt": "viracms.com - english version"
       },
       {
-        "idx":36,
-        "alt":"viracms.ru - russian version"
+        "idx": 36,
+        "alt": "viracms.ru - russian version"
       },
       {
-        "idx":37,
-        "alt":"customer support"
+        "idx": 37,
+        "alt": "customer support"
       },
       {
-        "idx":38,
-        "alt":"infrastructure management system"
+        "idx": 38,
+        "alt": "infrastructure management system"
       }
     ],
-    "similar":["vira-sketch","onk","yalta-city","internet-foundation"],
-    "git":"https://github.com/ViraTech/ViraCMS"
+    "similar": ["vira-sketch", "onk", "yalta-city", "internet-foundation"],
+    "git": "https://github.com/ViraTech/ViraCMS"
   },
   {
-    "id":"pravoe-delo",
-    "name":"Right Cause Party",
-    "summary":"'Right Cause' political party website.",
-    "detail":[
+    "id": "pravoe-delo",
+    "name": "Right Cause Party",
+    "summary": "'Right Cause' political party website.",
+    "detail": [
       "A network of one central and 84 regional websites was implemented using Vira Content Management System."
     ],
-    "year":2016,
-    "produced":1454284800,
-    "tags":["html+css","js","jquery","yii","mysql","viracms"],
-    "images":[
+    "year": 2016,
+    "produced": 1454284800,
+    "tags": ["html+css", "js", "jquery", "yii", "mysql", "viracms"],
+    "images": [
       {
-        "idx":1,
-        "alt":"site index"
+        "idx": 1,
+        "alt": "site index"
       },
       {
-        "idx":2,
-        "alt":"regional site selection"
+        "idx": 2,
+        "alt": "regional site selection"
       },
       {
-        "idx":3,
-        "alt":"news page"
+        "idx": 3,
+        "alt": "news page"
       }
     ],
-    "similar":["viracms","save-a-tree","personal-site","deputy-school"]
+    "similar": ["viracms", "save-a-tree", "personal-site", "deputy-school"]
   },
   {
-    "id":"save-a-tree",
-    "name":"Save a Tree",
-    "summary":"Ecology promo project of Right Cause Party.",
-    "detail":[
+    "id": "save-a-tree",
+    "name": "Save a Tree",
+    "summary": "Ecology promo project of Right Cause Party.",
+    "detail": [
       "Simple static pages website. HTML and CSS works. No backend, no interaction, no frontend."
     ],
-    "year":2016,
-    "produced":1454284801,
-    "tags":["html+css"],
-    "images":[
+    "year": 2016,
+    "produced": 1454284801,
+    "tags": ["html+css"],
+    "images": [
       {
-        "idx":1,
-        "alt":"site index"
+        "idx": 1,
+        "alt": "site index"
       }
     ],
-    "similar":["viracms","pravoe-delo","personal-site","moscow-audio-show"]
+    "similar": ["viracms", "pravoe-delo", "personal-site", "moscow-audio-show"]
   },
   {
-    "id":"personal-site",
-    "name":"Personal Website",
-    "summary":"Personal website template for ViraCMS.",
-    "detail":[
+    "id": "personal-site",
+    "name": "Personal Website",
+    "summary": "Personal website template for ViraCMS.",
+    "detail": [
       "Purposed for sale as separate product on Vira application market."
     ],
-    "year":2016,
-    "produced":1459468800,
-    "tags":["html+css","js","jquery","yii","mysql","viracms"],
-    "images":[
+    "year": 2016,
+    "produced": 1459468800,
+    "tags": ["html+css", "js", "jquery", "yii", "mysql", "viracms"],
+    "images": [
       {
-        "idx":1,
-        "alt":"site index"
+        "idx": 1,
+        "alt": "site index"
       },
       {
-        "idx":2,
-        "alt":"site news"
+        "idx": 2,
+        "alt": "site news"
       },
       {
-        "idx":3,
-        "alt":"photo gallery"
+        "idx": 3,
+        "alt": "photo gallery"
       }
     ],
-    "similar":["viracms","yalta-city","internet-foundation","onk"]
+    "similar": ["viracms", "yalta-city", "internet-foundation", "onk"]
   },
   {
-    "id":"kizilurt-district",
-    "name":"Kizilurt District",
-    "summary":"Kizilyurt District of Dagestan Republic municipality official website.",
-    "detail":[
+    "id": "kizilurt-district",
+    "name": "Kizilurt District",
+    "summary": "Kizilyurt District of Dagestan Republic municipality official website.",
+    "detail": [
       "Pilot project of implementing official government website template for ViraCMS."
     ],
-    "year":2016,
-    "produced":1464739200,
-    "tags":["html+css","js","jquery","yii","mysql","viracms"],
-    "images":[
+    "year": 2016,
+    "produced": 1464739200,
+    "tags": ["html+css", "js", "jquery", "yii", "mysql", "viracms"],
+    "images": [
       {
-        "idx":1,
-        "alt":"site index"
+        "idx": 1,
+        "alt": "site index"
       },
       {
-        "idx":2,
-        "alt":"site map"
+        "idx": 2,
+        "alt": "site map"
       }
     ],
-    "similar":["viracms","yalta-city","onk","personal-site"]
+    "similar": ["viracms", "yalta-city", "onk", "personal-site"]
   },
   {
-    "id":"viraworks",
-    "name":"ViraWorks",
-    "summary":"Customer relations and collaboration software.",
-    "detail":[
+    "id": "viraworks",
+    "name": "ViraWorks",
+    "summary": "Customer relations and collaboration software.",
+    "detail": [
       "Written in PHP with Yii Framework v2 from scratch.",
       "This application purposed to provide support to ViraCMS related customers on a subscription basis. Beside the options required for an application of this kind it featured advanced access control lists, separate for project, task and even comment.",
       "One of my favorites."
     ],
-    "year":2016,
-    "produced":1467331200,
-    "tags":["html+css","js","jquery","php","yii2","mysql"],
-    "images":[
+    "year": 2016,
+    "produced": 1467331200,
+    "tags": ["html+css", "js", "jquery", "php", "yii2", "mysql"],
+    "images": [
       {
-        "idx":1,
-        "alt":"dashboard"
+        "idx": 1,
+        "alt": "dashboard"
       },
       {
-        "idx":2,
-        "alt":"projects"
+        "idx": 2,
+        "alt": "projects"
       },
       {
-        "idx":3,
-        "alt":"view project data"
+        "idx": 3,
+        "alt": "view project data"
       },
       {
-        "idx":4,
-        "alt":"view project log"
+        "idx": 4,
+        "alt": "view project log"
       },
       {
-        "idx":5,
-        "alt":"tasks summary"
+        "idx": 5,
+        "alt": "tasks summary"
       },
       {
-        "idx":6,
-        "alt":"project's tasks"
+        "idx": 6,
+        "alt": "project's tasks"
       },
       {
-        "idx":7,
-        "alt":"task"
+        "idx": 7,
+        "alt": "task"
       },
       {
-        "idx":8,
-        "alt":"create new task"
+        "idx": 8,
+        "alt": "create new task"
       },
       {
-        "idx":9,
-        "alt":"mass mailing"
+        "idx": 9,
+        "alt": "mass mailing"
       },
       {
-        "idx":10,
-        "alt":"update mass mailing"
+        "idx": 10,
+        "alt": "update mass mailing"
       },
       {
-        "idx":11,
-        "alt":"update mass mailing content"
+        "idx": 11,
+        "alt": "update mass mailing content"
       },
       {
-        "idx":12,
-        "alt":"update mass mailing receivers"
+        "idx": 12,
+        "alt": "update mass mailing receivers"
       },
       {
-        "idx":13,
-        "alt":"application settings"
+        "idx": 13,
+        "alt": "application settings"
       },
       {
-        "idx":14,
-        "alt":"project's management"
+        "idx": 14,
+        "alt": "project's management"
       },
       {
-        "idx":15,
-        "alt":"project update by administrator"
+        "idx": 15,
+        "alt": "project update by administrator"
       },
       {
-        "idx":16,
-        "alt":"update project responsible persons"
+        "idx": 16,
+        "alt": "update project responsible persons"
       },
       {
-        "idx":17,
-        "alt":"update project's access rules"
+        "idx": 17,
+        "alt": "update project's access rules"
       },
       {
-        "idx":18,
-        "alt":"task's management"
+        "idx": 18,
+        "alt": "task's management"
       },
       {
-        "idx":19,
-        "alt":"task update by administrator"
+        "idx": 19,
+        "alt": "task update by administrator"
       },
       {
-        "idx":20,
-        "alt":"update task responsible persons"
+        "idx": 20,
+        "alt": "update task responsible persons"
       },
       {
-        "idx":21,
-        "alt":"update task's access rules"
+        "idx": 21,
+        "alt": "update task's access rules"
       },
       {
-        "idx":22,
-        "alt":"task comment's management"
+        "idx": 22,
+        "alt": "task comment's management"
       },
       {
-        "idx":23,
-        "alt":"update comment"
+        "idx": 23,
+        "alt": "update comment"
       },
       {
-        "idx":24,
-        "alt":"update comment's access rules"
+        "idx": 24,
+        "alt": "update comment's access rules"
       },
       {
-        "idx":25,
-        "alt":"user's management"
+        "idx": 25,
+        "alt": "user's management"
       },
       {
-        "idx":26,
-        "alt":"update user by administrator"
+        "idx": 26,
+        "alt": "update user by administrator"
       },
       {
-        "idx":27,
-        "alt":"update user's personal info"
+        "idx": 27,
+        "alt": "update user's personal info"
       },
       {
-        "idx":28,
-        "alt":"upload user's photo"
+        "idx": 28,
+        "alt": "upload user's photo"
       },
       {
-        "idx":29,
-        "alt":"authentication log"
+        "idx": 29,
+        "alt": "authentication log"
       },
       {
-        "idx":30,
-        "alt":"view authentication log record"
+        "idx": 30,
+        "alt": "view authentication log record"
       },
       {
-        "idx":31,
-        "alt":"customer's list"
+        "idx": 31,
+        "alt": "customer's list"
       },
       {
-        "idx":32,
-        "alt":"customer update by administrator"
+        "idx": 32,
+        "alt": "customer update by administrator"
       },
       {
-        "idx":33,
-        "alt":"update subscription expiration date"
+        "idx": 33,
+        "alt": "update subscription expiration date"
       },
       {
-        "idx":34,
-        "alt":"update customer's details"
+        "idx": 34,
+        "alt": "update customer's details"
       },
       {
-        "idx":35,
-        "alt":"customer's dashboard"
+        "idx": 35,
+        "alt": "customer's dashboard"
       },
       {
-        "idx":36,
-        "alt":"customer's projects"
+        "idx": 36,
+        "alt": "customer's projects"
       },
       {
-        "idx":37,
-        "alt":"customer task's summary"
+        "idx": 37,
+        "alt": "customer task's summary"
       },
       {
-        "idx":38,
-        "alt":"customer project task's list"
+        "idx": 38,
+        "alt": "customer project task's list"
       }
     ],
-    "similar":["viracms","oauth","social-liable-people","onf-youth"]
+    "similar": ["viracms", "oauth", "social-liable-people", "onf-youth"]
   },
   {
-    "id":"social-liable-people",
-    "name":"Social Liable People",
-    "summary":"Social fund rising project website.",
-    "detail":[
+    "id": "social-liable-people",
+    "name": "Social Liable People",
+    "summary": "Social fund rising project website.",
+    "detail": [
       "Website purposed to rising funding for non-commercial project called 'Social Liable People'. It's a part of social movement 'For a Quality of Life' (not listed here).",
       "Written in PHP with Yii Framework v2."
     ],
-    "year":2017,
-    "produced":1468540800,
-    "tags":["html+css","js","jquery","php","yii2","mysql"],
-    "images":[
+    "year": 2017,
+    "produced": 1468540800,
+    "tags": ["html+css", "js", "jquery", "php", "yii2", "mysql"],
+    "images": [
       {
-        "idx":1,
-        "alt":"site index"
+        "idx": 1,
+        "alt": "site index"
       },
       {
-        "idx":2,
-        "alt":"donater's list"
+        "idx": 2,
+        "alt": "donater's list"
       },
       {
-        "idx":3,
-        "alt":"donater's personal page"
+        "idx": 3,
+        "alt": "donater's personal page"
       }
     ],
-    "similar":["viraworks","oauth","viracms","onf-youth"]
+    "similar": ["viraworks", "oauth", "viracms", "onf-youth"]
   },
   {
-    "id":"yalta-city",
-    "name":"Yalta City",
-    "summary":"Yalta City municipality official website.",
-    "detail":[
-      "Implemented on ViraCMS' Government Site Project template."
-    ],
-    "year":2017,
-    "produced":1472688000,
-    "tags":["html+css","js","jquery","php","yii","mysql","viracms"],
-    "images":[
+    "id": "yalta-city",
+    "name": "Yalta City",
+    "summary": "Yalta City municipality official website.",
+    "detail": ["Implemented on ViraCMS' Government Site Project template."],
+    "year": 2017,
+    "produced": 1472688000,
+    "tags": ["html+css", "js", "jquery", "php", "yii", "mysql", "viracms"],
+    "images": [
       {
-        "idx":1,
-        "alt":"site index"
+        "idx": 1,
+        "alt": "site index"
       },
       {
-        "idx":2,
-        "alt":"city mayor department"
+        "idx": 2,
+        "alt": "city mayor department"
       },
       {
-        "idx":3,
-        "alt":"structure of city administration"
+        "idx": 3,
+        "alt": "structure of city administration"
       },
       {
-        "idx":4,
-        "alt":"city mayor bio"
+        "idx": 4,
+        "alt": "city mayor bio"
       },
       {
-        "idx":5,
-        "alt":"news page"
+        "idx": 5,
+        "alt": "news page"
       },
       {
-        "idx":6,
-        "alt":"photo galleries"
+        "idx": 6,
+        "alt": "photo galleries"
       },
       {
-        "idx":7,
-        "alt":"photo gallery"
+        "idx": 7,
+        "alt": "photo gallery"
       },
       {
-        "idx":8,
-        "alt":"events calendary"
+        "idx": 8,
+        "alt": "events calendary"
       },
       {
-        "idx":9,
-        "alt":"site map"
+        "idx": 9,
+        "alt": "site map"
       }
     ],
-    "similar":["viracms","personal-site","onk","kizilurt-district"]
+    "similar": ["viracms", "personal-site", "onk", "kizilurt-district"]
   },
   {
-    "id":"onk",
-    "name":"Kuban Tour",
-    "summary":"Kuban region touristic portal.",
-    "detail":[
+    "id": "onk",
+    "name": "Kuban Tour",
+    "summary": "Kuban region touristic portal.",
+    "detail": [
       "Pilot project of implementing regional touristic portal website template for ViraCMS."
     ],
-    "year":2017,
-    "produced":1475280000,
-    "tags":["html+css","js","jquery","php","yii","mysql","viracms"],
-    "images":[
+    "year": 2017,
+    "produced": 1475280000,
+    "tags": ["html+css", "js", "jquery", "php", "yii", "mysql", "viracms"],
+    "images": [
       {
-        "idx":1,
-        "alt":"site index"
+        "idx": 1,
+        "alt": "site index"
       },
       {
-        "idx":2,
-        "alt":"heritage"
+        "idx": 2,
+        "alt": "heritage"
       },
       {
-        "idx":3,
-        "alt":"heritage object"
+        "idx": 3,
+        "alt": "heritage object"
       },
       {
-        "idx":4,
-        "alt":"beaches and bays"
+        "idx": 4,
+        "alt": "beaches and bays"
       },
       {
-        "idx":5,
-        "alt":"hotels"
+        "idx": 5,
+        "alt": "hotels"
       },
       {
-        "idx":6,
-        "alt":"nature"
+        "idx": 6,
+        "alt": "nature"
       },
       {
-        "idx":7,
-        "alt":"restaurants"
+        "idx": 7,
+        "alt": "restaurants"
       },
       {
-        "idx":8,
-        "alt":"sports"
+        "idx": 8,
+        "alt": "sports"
       },
       {
-        "idx":9,
-        "alt":"clubs and concert halls"
+        "idx": 9,
+        "alt": "clubs and concert halls"
       }
     ],
-    "similar":["kizilurt-district","yalta-tour","yalta-city","personal-site"]
+    "similar": [
+      "kizilurt-district",
+      "yalta-tour",
+      "yalta-city",
+      "personal-site"
+    ]
   },
   {
-    "id":"yalta-tour",
-    "name":"Yalta Tour",
-    "summary":"Yalta region touristic portal.",
-    "detail":[
-      "Implemented on ViraCMS' Regional Touristic Portal template."
-    ],
-    "year":2017,
-    "produced":1475280010,
-    "tags":["html+css","js","jquery","php","yii","mysql","viracms"],
-    "images":[
+    "id": "yalta-tour",
+    "name": "Yalta Tour",
+    "summary": "Yalta region touristic portal.",
+    "detail": ["Implemented on ViraCMS' Regional Touristic Portal template."],
+    "year": 2017,
+    "produced": 1475280010,
+    "tags": ["html+css", "js", "jquery", "php", "yii", "mysql", "viracms"],
+    "images": [
       {
-        "idx":1,
-        "alt":"site index"
+        "idx": 1,
+        "alt": "site index"
       }
     ],
-    "similar":["viracms","onk","kizilurt-district","personal-site"]
+    "similar": ["viracms", "onk", "kizilurt-district", "personal-site"]
   },
   {
-    "id":"onf-youth",
-    "name":"Molodezhka ONF",
-    "summary":"Russian People Front project 'Youthness' website.",
-    "detail":[
+    "id": "onf-youth",
+    "name": "Molodezhka ONF",
+    "summary": "Russian People Front project 'Youthness' website.",
+    "detail": [
       "Written in PHP with Yii Framework v2 from scratch. jQuery on frontend. Quick prototyping and fast deploy."
     ],
-    "year":2017,
-    "produced":1477958400,
-    "tags":["html+css","js","jquery","php","yii2","mysql"],
-    "images":[
+    "year": 2017,
+    "produced": 1477958400,
+    "tags": ["html+css", "js", "jquery", "php", "yii2", "mysql"],
+    "images": [
       {
-        "idx":1,
-        "alt":"site index"
+        "idx": 1,
+        "alt": "site index"
       },
       {
-        "idx":2,
-        "alt":"navigation"
+        "idx": 2,
+        "alt": "navigation"
       },
       {
-        "idx":3,
-        "alt":"news list"
+        "idx": 3,
+        "alt": "news list"
       },
       {
-        "idx":4,
-        "alt":"news page"
+        "idx": 4,
+        "alt": "news page"
       },
       {
-        "idx":5,
-        "alt":"competitions"
+        "idx": 5,
+        "alt": "competitions"
       },
       {
-        "idx":6,
-        "alt":"competition page"
+        "idx": 6,
+        "alt": "competition page"
       },
       {
-        "idx":7,
-        "alt":"success stories"
+        "idx": 7,
+        "alt": "success stories"
       },
       {
-        "idx":8,
-        "alt":"success story page"
+        "idx": 8,
+        "alt": "success story page"
       },
       {
-        "idx":9,
-        "alt":"regional page"
+        "idx": 9,
+        "alt": "regional page"
       },
       {
-        "idx":10,
-        "alt":"video clips"
+        "idx": 10,
+        "alt": "video clips"
       },
       {
-        "idx":11,
-        "alt":"photo galleries"
+        "idx": 11,
+        "alt": "photo galleries"
       },
       {
-        "idx":12,
-        "alt":"photo gallery page"
+        "idx": 12,
+        "alt": "photo gallery page"
       },
       {
-        "idx":13,
-        "alt":"article page"
+        "idx": 13,
+        "alt": "article page"
       },
       {
-        "idx":14,
-        "alt":"site search"
+        "idx": 14,
+        "alt": "site search"
       }
     ],
-    "similar":["viraworks","onf-youth","social-liable-people","oauth"],
-    "live":"https://molodezhka.onf.ru"
+    "similar": ["viraworks", "onf-youth", "social-liable-people", "oauth"]
   },
   {
-    "id":"internet-foundation",
-    "name":"Internet Foundation",
-    "summary":"Foundation in a popularizing internet for government departaments.",
-    "detail":[
+    "id": "internet-foundation",
+    "name": "Internet Foundation",
+    "summary": "Foundation in a popularizing internet for government departaments.",
+    "detail": [
       "Purposed to promote ViraCMS solutions in government and municipal subjects.",
       "Implemented on ViraCMS custom built template."
     ],
-    "year":2017,
-    "produced":1485907200,
-    "tags":["html+css","js","jquery","php","yii","mysql","viracms"],
-    "images":[
+    "year": 2017,
+    "produced": 1485907200,
+    "tags": ["html+css", "js", "jquery", "php", "yii", "mysql", "viracms"],
+    "images": [
       {
-        "idx":1,
-        "alt":"site index"
+        "idx": 1,
+        "alt": "site index"
       }
     ],
-    "similar":["viracms","personal-site","pravoe-delo","kizilurt-district"]
+    "similar": ["viracms", "personal-site", "pravoe-delo", "kizilurt-district"]
   },
   {
-    "id":"studwork",
-    "name":"Studwork.org",
-    "summary":"Freelancer job website focused on education.",
-    "detail":[
+    "id": "studwork",
+    "name": "Studwork.org",
+    "summary": "Freelancer job website focused on education.",
+    "detail": [
       "Very huge web application. Frontend part is built on Vue.js and Nuxt.js for server side rendering. Backend API is written in PHP with Yii Framework v2. PostgreSQL used as a database server. Redis for caching and fast access to common used data. Elastic search is used for full text search engine."
     ],
-    "achievements":[
+    "achievements": [
       {
-        "part":"frontend",
-        "text":"special build server and full deploy automatization with Ansible and GitHub Actions"
+        "part": "frontend",
+        "text": "special build server and full deploy automatization with Ansible and GitHub Actions"
       },
       {
-        "part":"frontend",
-        "text":"introduced git flow with versioning and scheduled releases"
+        "part": "frontend",
+        "text": "introduced git flow with versioning and scheduled releases"
       },
       {
-        "part":"frontend",
-        "text":"migrated from Nuxt v1.4 to v2 for security and performance reasons"
+        "part": "frontend",
+        "text": "migrated from Nuxt v1.4 to v2 for security and performance reasons"
       },
       {
-        "part":"backend",
-        "text":"covered over 80% of API code by unit and acceptance tests"
+        "part": "backend",
+        "text": "covered over 80% of API code by unit and acceptance tests"
       },
       {
-        "part":"backend",
-        "text":"implemented Action-Domain-Responder pattern to increase development process"
+        "part": "backend",
+        "text": "implemented Action-Domain-Responder pattern to increase development process"
       },
       {
-        "part":"backend",
-        "text":"migrated from PHP v5.6 to v8.0"
+        "part": "backend",
+        "text": "migrated from PHP v5.6 to v8.0"
       }
     ],
-    "year":2021,
-    "produced":1512086400,
-    "tags":["php","yii2","postgres","nuxt","vue","js","redis"],
-    "images":[
+    "year": 2021,
+    "produced": 1512086400,
+    "tags": ["php", "yii2", "postgres", "nuxt", "vue", "js", "redis"],
+    "images": [
       {
-        "idx":1,
-        "alt":"site index"
+        "idx": 1,
+        "alt": "site index"
       }
     ],
-    "similar":["president-sovet","democrator","activedns","quicklance"],
-    "live":"https://studwork.org"
+    "similar": ["president-sovet", "democrator", "activedns", "quicklance"],
+    "live": "https://studwork.org"
   }
 ]
